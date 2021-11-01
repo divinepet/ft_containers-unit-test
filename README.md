@@ -9,7 +9,7 @@ This test checks 90% of subject and checklist requires, but keep in mind that te
 ## Installation
 run this command <b>inside</b> your ft_containers folder:
 ```
-git clone https://github.com/divinepet/ft_containers_unit_test
+git clone https://github.com/divinepet/ft_containers-unit-test
 ```
 then
 ```
