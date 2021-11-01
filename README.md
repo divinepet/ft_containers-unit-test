@@ -6,7 +6,7 @@
 This test checks 90% of subject and checklist requires, but keep in mind that test doesn't check something you don't need to implement and was written by students, so im waiting for your bugs or suggestions for improving
 
 # Getting started
-## Installation
+## ⚙️ Installation
 run this command <b>inside</b> your ft_containers folder:
 ```
 git clone https://github.com/divinepet/ft_containers-unit-test
@@ -25,7 +25,7 @@ if you haven't some class implementation yet, for example <b>Map</b>, you need t
 // #include "../Map.hpp"
 ```
 and etc. for other
-## start.sh
+## ▶️ start.sh
 you can run tests with a specific container, use flags for this
 ```
 ./start.sh -v // for vector
