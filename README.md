@@ -1,5 +1,6 @@
 # ft_containers-unit-test
-<img align="center" src="sources/system/credits/screenshot.png" alt="Screenshot of the test" />
+
+![screenshot](https://raw.githubusercontent.com/divinepet/ft_containers-unit-test/main/sources/system/credits/screenshot.gif)
 
 ## About
 <span>ft containers unit test</span> is a complete testing for project of school 21/ecole 42, allowing you test your containers: <b>Vector</b>, <b>Stack</b>, <b>Map</b>, <b>Set</b> and <b>Utilities</b> in <b>ft</b> namespace, track your progress and including benchmark for every method </br>
