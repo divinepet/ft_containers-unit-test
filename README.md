@@ -13,7 +13,7 @@ git clone https://github.com/divinepet/ft_containers-unit-test
 ```
 then
 ```
-cd ft_containers_unit_test
+cd ft_containers-unit-test
 ```
 now you need to configure file ```config.hpp``` and write correct names of all your files and classes, and the last step is
 ```
