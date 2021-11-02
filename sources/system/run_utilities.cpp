@@ -3,7 +3,7 @@
 
 int main(int argc, char* argv[], char* env[]) {
 	cout << "--------------------------------------------------------------------------------------------" << endl;
-	cout << "|                                         UTILITIES                                        |" << endl;
+	cout << "|                                        UTILITIES                                         |" << endl;
 	cout << "--------------------------------------------------------------------------------------------" << endl;
 	printElement("FUNCTION"); printElement(WHITE + "RESULT" + RESET); printElement(WHITE + "FT TIME" + RESET); printElement(WHITE + "STD TIME" + RESET);
 	printElement(WHITE + "LEAKS" + RESET); cout << endl;
