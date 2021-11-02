@@ -39,4 +39,4 @@ you can run tests with a specific container, use flags for this
 
 ![](https://via.placeholder.com/15/f00/000000?text=+) <b>NOT COMPILED</b> means that method compiles with errors, also probably some template name in ```config.hpp``` is incorrect</br>
 ![](https://via.placeholder.com/15/f90/000000?text=+) <b>TIMEOUT</b> means the method exceeded the maximal execution time, probably due to an infinite loop
-#### Press Star ⭐ if this test helped you, so that more people can see it
+#### Press Star ⭐ button in the top right corner if test was useful to you, so that more people can see it
