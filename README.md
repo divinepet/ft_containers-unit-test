@@ -2,8 +2,8 @@
 <img align="center" src="sources/system/credits/screenshot.png" alt="Screenshot of the test" />
 
 ## About
-<span>ft containers unit test</span> is a complete testing for project of school 21/ecole 42, allowing you test your containers: <b>Vector</b>, <b>Stack</b>, <b>Map</b>, <b>Set</b> and <b>Utilities</b> in <b>ft</b> namespace, track your progress and including benchmark for every method </br>
-This test checks 90% of subject and checklist requires, but keep in mind that test doesn't check something you don't need to implement and was written by students, so im waiting for your bugs or suggestions for improving
+<span>ft containers unit test</span> is a complete testing for project of school 21/ecole 42 based on the <b>newest subject</b> and allowing you test your containers: <b>Vector</b>, <b>Stack</b>, <b>Map</b>, <b>Set</b> and <b>Utilities</b> in <b>ft</b> namespace, track your progress and including benchmark for every method </br>
+This test checks 90% of subject and checklist requires (<b>iterator traits, allocator using, exceptions, segfaults, overloads</b> etc. But keep in mind that test doesn't check something you don't need to implement and was written by students, so im waiting for your bugs or suggestions for improving
 
 # Getting started
 ## ⚙️ Installation
