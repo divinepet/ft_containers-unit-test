@@ -21,8 +21,10 @@ now you need to configure file ```config.hpp``` and write correct names of all y
 ```
 ## ⚠️ config.hpp
 if you haven't some class implementation yet, for example <b>Map</b>, you need to <b><i>comment</i></b> this line:
-```
+```C#
+...
 // #include "../Map.hpp"
+...
 ```
 and etc. for other
 ## 📄 start.sh
