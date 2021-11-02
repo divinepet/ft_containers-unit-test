@@ -75,7 +75,5 @@ std::vector<int> iterators_test(_set<T> st) {
 
 int main() {
 
-    run_set_unit_test<int>("iterators", iterators_test, iterators_test);
-
-    return (0);
+    exit(run_set_unit_test<int>("iterators", iterators_test, iterators_test));
 }

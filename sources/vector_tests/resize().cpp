@@ -43,7 +43,5 @@ std::vector<int> resize_test(_vector<T> vector) {
 
 int main() {
 
-    run_vector_unit_test<int>("resize()", resize_test, resize_test);
-
-    return (0);
+    exit(run_vector_unit_test<int>("resize()", resize_test, resize_test));
 }

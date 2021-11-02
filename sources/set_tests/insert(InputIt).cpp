@@ -35,7 +35,5 @@ std::vector<int> insert_test_2(_set<T> st) {
 
 int main() {
 
-    run_set_unit_test<int>("insert(InputIt)", insert_test_2, insert_test_2);
-
-    return (0);
+    exit(run_set_unit_test<int>("insert(InputIt)", insert_test_2, insert_test_2));
 }

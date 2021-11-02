@@ -25,7 +25,5 @@ std::vector<int> rend_test(_vector<T> vector) {
 
 int main() {
 
-    run_vector_unit_test<int>("rend()", rend_test, rend_test);
-
-    return (0);
+    exit(run_vector_unit_test<int>("rend()", rend_test, rend_test));
 }

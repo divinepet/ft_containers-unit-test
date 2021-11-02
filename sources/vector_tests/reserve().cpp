@@ -25,7 +25,5 @@ std::vector<int> reserve_test(_vector<T> vector) {
 
 int main() {
 
-    run_vector_unit_test<int>("reserve()", reserve_test, reserve_test);
-
-    return (0);
+    exit(run_vector_unit_test<int>("reserve()", reserve_test, reserve_test));
 }

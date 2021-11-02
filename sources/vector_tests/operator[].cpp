@@ -27,7 +27,5 @@ std::vector<int> operator1_test(_vector<T> vector) {
 
 int main() {
 
-    run_vector_unit_test<int>("operator[]", operator1_test, operator1_test);
-
-    return (0);
+    exit(run_vector_unit_test<int>("operator[]", operator1_test, operator1_test));
 }

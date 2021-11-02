@@ -49,7 +49,9 @@ public:
 };
 
 template <class T, class V>
-void run_map_unit_test(std::string test_name, std::vector<int> (func1)(std::map<T, V>), std::vector<int> (func2)(_map<T, V>)) {
+int run_map_unit_test(std::string test_name, std::vector<int> (func1)(std::map<T, V>), std::vector<int> (func2)(_map<T, V>)) {
+    int    result;
+    int    leaks;
 	time_t t1;
 	time_t t2;
 	std::vector<int > res1;
@@ -60,22 +62,38 @@ void run_map_unit_test(std::string test_name, std::vector<int> (func1)(std::map<
 	printElement(test_name);
 	res1 = func1(map);
 	res2 = func2(my_map);
-	(res1 == res2) ? printElement("OK") : printElement("FAILED");
+	if (res1 == res2) {
+	    printElement("OK");
+	    result = 0;
+	}
+	else {
+	    printElement("FAILED");
+	    result = 1;
+	}
 	t1 = g_end1 - g_start1, t2 = g_end2 - g_start2;
 	(t1 >= t2) ? printElement(GREEN + std::to_string(t2) + "ms" + RESET) : printElement(REDD + std::to_string(t2) + "ms" + RESET);
 	(t1 > t2) ? printElement(REDD + std::to_string(t1) + "ms" + RESET) : printElement(GREEN + std::to_string(t1) + "ms" + RESET);
-	leaks_test(getpid());
+	leaks = leaks_test(getpid());
 	cout << endl;
+
+	return !(!result && !leaks);
 }
 
 template <class T, class V, class C, class A>
-void run_map_allocator_unit_test(std::string test_name, void (func)(_map<T, V, C, A>)) {
-    time_t t1;
-    time_t t2;
+int run_map_allocator_unit_test(std::string test_name, void (func)(_map<T, V, C, A>)) {
+
     _map<T, V, C, A> my_map;
 
     printElement(test_name);
     func(my_map);
-    (_allocator_used) ? printElement("OK") : printElement("FAILED");
-    cout << endl;
+    if (_allocator_used) {
+        printElement("OK");
+        cout << endl;
+        return (0);
+    }
+    else {
+        printElement("FAILED");
+        cout << endl;
+        return (1);
+    }
 }

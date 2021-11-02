@@ -1,0 +1,48 @@
+
+/* Class = "NSWindow"; title = "Mise à jour %@"; ObjectID = "10"; */
+"10.title" = "Mise à jour %@";
+
+/* Class = "NSWindow"; title = "Mise à jour %@"; ObjectID = "51"; */
+"51.title" = "Mise à jour %@";
+
+/* Class = "NSWindow"; title = "Mise à jour %@"; ObjectID = "59"; */
+"59.title" = "Mise à jour %@";
+
+/* Class = "NSButtonCell"; title = "Annuler"; ObjectID = "96"; */
+"96.title" = "Annuler";
+
+/* Class = "NSButtonCell"; title = "MàJ"; ObjectID = "97"; */
+"97.title" = "MàJ";
+
+/* Class = "NSTextFieldCell"; title = "Une mise à jour est disponible"; ObjectID = "99"; */
+"99.title" = "Une mise à jour est disponible";
+
+/* Class = "NSTextFieldCell"; title = "Cette application a été mise à jour le %@.\nLa version %@ est disponible depuis %i jours.\nVoulez vous mettre à jour votre version %@ ?"; ObjectID = "100"; */
+"100.title" = "Cette application a été mise à jour le %@.\nLa version %@ est disponible depuis %i jours.\nVoulez vous mettre à jour votre version %@ ?";
+
+/* Class = "NSButtonCell"; title = "Vérifier les mises à jour atomatiquement"; ObjectID = "101"; */
+"101.title" = "Vérifier les mises à jour atomatiquement";
+
+/* Class = "NSButtonCell"; title = "Vérifier les mises à jour atomatiquement"; ObjectID = "103"; */
+"103.title" = "Vérifier les mises à jour atomatiquement";
+
+/* Class = "NSButtonCell"; title = "Ok"; ObjectID = "104"; */
+"104.title" = "Ok";
+
+/* Class = "NSTextFieldCell"; title = "Aucune mise à jour n'est disponible."; ObjectID = "105"; */
+"105.title" = "Aucune mise à jour n'est disponible.";
+
+/* Class = "NSTextFieldCell"; title = "L'application est à jour"; ObjectID = "106"; */
+"106.title" = "L'application est à jour";
+
+/* Class = "NSTextFieldCell"; title = "Il y a eut une erreur lors de la connexion au serveur.\nVérifiez vos réglages réseau ou essayez plus tard."; ObjectID = "107"; */
+"107.title" = "Il y a eut une erreur lors de la connexion au serveur.\nVérifiez vos réglages réseau ou essayez plus tard.";
+
+/* Class = "NSButtonCell"; title = "Vérifier les mises à jour atomatiquement"; ObjectID = "109"; */
+"109.title" = "Vérifier les mises à jour atomatiquement";
+
+/* Class = "NSButtonCell"; title = "Ok"; ObjectID = "110"; */
+"110.title" = "Ok";
+
+/* Class = "NSTextFieldCell"; title = "Impossible de vérifier les mises à jour"; ObjectID = "111"; */
+"111.title" = "Impossible de vérifier les mises à jour";

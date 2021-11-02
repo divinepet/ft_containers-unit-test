@@ -9,5 +9,5 @@ bool equal_test() {
 }
 
 int main() {
-	run_bool_unit_test("equal", equal_test);
+	exit(run_bool_unit_test("equal", equal_test));
 }

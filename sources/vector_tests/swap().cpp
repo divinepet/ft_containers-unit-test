@@ -69,7 +69,5 @@ std::vector<int> swap_test(_vector<T> vector) {
 
 int main() {
 
-    run_vector_unit_test<int>("swap()", swap_test, swap_test);
-
-    return (0);
+    exit(run_vector_unit_test<int>("swap()", swap_test, swap_test));
 }

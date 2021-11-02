@@ -53,7 +53,5 @@ std::vector<int> constructor_test(_stack<T> stk) {
 
 int main() {
 
-	run_stack_unit_test<int>("constructor(container)", constructor_test, constructor_test);
-
-	return (0);
+	exit(run_stack_unit_test<int>("constructor", constructor_test, constructor_test));
 }

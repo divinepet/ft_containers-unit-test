@@ -27,7 +27,5 @@ std::vector<int> front_test(_vector<T> vector) {
 
 int main() {
 
-    run_vector_unit_test<int>("front()", front_test, front_test);
-
-    return (0);
+    exit(run_vector_unit_test<int>("front()", front_test, front_test));
 }

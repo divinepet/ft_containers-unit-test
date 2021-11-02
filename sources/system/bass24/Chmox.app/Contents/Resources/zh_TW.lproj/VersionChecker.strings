@@ -1,0 +1,48 @@
+
+/* Class = "NSWindow"; title = "%@ 軟體更新"; ObjectID = "10"; */
+"10.title" = "%@ 軟體更新";
+
+/* Class = "NSWindow"; title = "%@ 軟體更新"; ObjectID = "51"; */
+"51.title" = "%@ 軟體更新";
+
+/* Class = "NSWindow"; title = "%@ 軟體更新"; ObjectID = "59"; */
+"59.title" = "%@ 軟體更新";
+
+/* Class = "NSButtonCell"; title = "取消"; ObjectID = "96"; */
+"96.title" = "取消";
+
+/* Class = "NSButtonCell"; title = "更新"; ObjectID = "97"; */
+"97.title" = "更新";
+
+/* Class = "NSTextFieldCell"; title = "更新已可取得"; ObjectID = "99"; */
+"99.title" = "更新已可取得";
+
+/* Class = "NSTextFieldCell"; title = "這個應用程式更新於 %@。\n這個版本 %@ 從 %i 天前起已可下載取得。\n您是否想要更新您的版本 %@？"; ObjectID = "100"; */
+"100.title" = "這個應用程式更新於 %@。\n這個版本 %@ 從 %i 天前起已可下載取得。\n您是否想要更新您的版本 %@？";
+
+/* Class = "NSButtonCell"; title = "自動檢查更新"; ObjectID = "101"; */
+"101.title" = "自動檢查更新";
+
+/* Class = "NSButtonCell"; title = "自動檢查更新"; ObjectID = "103"; */
+"103.title" = "自動檢查更新";
+
+/* Class = "NSButtonCell"; title = "好"; ObjectID = "104"; */
+"104.title" = "好";
+
+/* Class = "NSTextFieldCell"; title = "目前沒有更新可取得。"; ObjectID = "105"; */
+"105.title" = "目前沒有更新可取得。";
+
+/* Class = "NSTextFieldCell"; title = "您的版本已是最新版本"; ObjectID = "106"; */
+"106.title" = "您的版本已是最新版本";
+
+/* Class = "NSTextFieldCell"; title = "連接至伺服器時發生錯誤。請檢查您的網路設定或稍後重試\n。"; ObjectID = "107"; */
+"107.title" = "連接至伺服器時發生錯誤。請檢查您的網路設定或稍後重試\n。";
+
+/* Class = "NSButtonCell"; title = "自動檢查更新"; ObjectID = "109"; */
+"109.title" = "自動檢查更新";
+
+/* Class = "NSButtonCell"; title = "好"; ObjectID = "110"; */
+"110.title" = "好";
+
+/* Class = "NSTextFieldCell"; title = "檢查最新版本時發生錯誤"; ObjectID = "111"; */
+"111.title" = "檢查最新版本時發生錯誤";

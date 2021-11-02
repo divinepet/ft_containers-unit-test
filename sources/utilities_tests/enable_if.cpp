@@ -24,5 +24,5 @@ bool enable_if_test_() {
 }
 
 int main() {
-	run_bool_unit_test("enable_if", enable_if_test_);
+	exit(run_bool_unit_test("enable_if", enable_if_test_));
 }

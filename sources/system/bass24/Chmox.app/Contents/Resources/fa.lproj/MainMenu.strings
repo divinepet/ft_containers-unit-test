@@ -1,0 +1,177 @@
+
+/* Class = "NSMenuItem"; title = "همه را به جلو بیاور"; ObjectID = "5"; */
+"5.title" = "همه را به جلو بیاور";
+
+/* Class = "NSMenuItem"; title = "پنجره"; ObjectID = "19"; */
+"19.title" = "پنجره";
+
+/* Class = "NSMenuItem"; title = "به حداقل رساندن پنجره"; ObjectID = "23"; */
+"23.title" = "به حداقل رساندن پنجره";
+
+/* Class = "NSMenu"; title = "پنجره"; ObjectID = "24"; */
+"24.title" = "پنجره";
+
+/* Class = "NSMenu"; title = "فهرست اصلی"; ObjectID = "29"; */
+"29.title" = "فهرست اصلی";
+
+/* Class = "NSMenuItem"; title = "Chmox"; ObjectID = "56"; */
+"56.title" = "Chmox";
+
+/* Class = "NSMenu"; title = "Chmox"; ObjectID = "57"; */
+"57.title" = "Chmox";
+
+/* Class = "NSMenuItem"; title = "Chmox درباره"; ObjectID = "58"; */
+"58.title" = "Chmox درباره";
+
+/* Class = "NSMenuItem"; title = "…بازکردن"; ObjectID = "72"; */
+"72.title" = "…بازکردن";
+
+/* Class = "NSMenuItem"; title = "بستن"; ObjectID = "73"; */
+"73.title" = "بستن";
+
+/* Class = "NSMenuItem"; title = "…تنظیمات صفحه"; ObjectID = "77"; */
+"77.title" = "…تنظیمات صفحه";
+
+/* Class = "NSMenuItem"; title = "…چاپ"; ObjectID = "78"; */
+"78.title" = "…چاپ";
+
+/* Class = "NSMenu"; title = "فایل"; ObjectID = "81"; */
+"81.title" = "فایل";
+
+/* Class = "NSMenuItem"; title = "فایل"; ObjectID = "83"; */
+"83.title" = "فایل";
+
+/* Class = "NSMenuItem"; title = "راهنما"; ObjectID = "103"; */
+"103.title" = "راهنما";
+
+/* Class = "NSMenu"; title = "راهنما"; ObjectID = "106"; */
+"106.title" = "راهنما";
+
+/* Class = "NSMenuItem"; title = "Chmox راهنمای"; ObjectID = "111"; */
+"111.title" = "Chmox راهنمای";
+
+/* Class = "NSMenuItem"; title = "باز کردن پرونده اخیر"; ObjectID = "124"; */
+"124.title" = "باز کردن پرونده اخیر";
+
+/* Class = "NSMenu"; title = "باز کردن پرونده اخیر"; ObjectID = "125"; */
+"125.title" = "باز کردن پرونده اخیر";
+
+/* Class = "NSMenuItem"; title = "پاک کردن فهرست"; ObjectID = "126"; */
+"126.title" = "پاک کردن فهرست";
+
+/* Class = "NSMenuItem"; title = "…تنظیمات"; ObjectID = "129"; */
+"129.title" = "…تنظیمات";
+
+/* Class = "NSMenu"; title = "سرویسها"; ObjectID = "130"; */
+"130.title" = "سرویسها";
+
+/* Class = "NSMenuItem"; title = "سرویسها"; ObjectID = "131"; */
+"131.title" = "سرویسها";
+
+/* Class = "NSMenuItem"; title = "Chmox مخفی کردن"; ObjectID = "134"; */
+"134.title" = "Chmox مخفی کردن";
+
+/* Class = "NSMenuItem"; title = "Chmox خروج از"; ObjectID = "136"; */
+"136.title" = "Chmox خروج از";
+
+/* Class = "NSMenuItem"; title = "مخفی کردن سایرین"; ObjectID = "145"; */
+"145.title" = "مخفی کردن سایرین";
+
+/* Class = "NSMenuItem"; title = "نمایش همه"; ObjectID = "150"; */
+"150.title" = "نمایش همه";
+
+/* Class = "NSMenuItem"; title = "…جستجو"; ObjectID = "154"; */
+"154.title" = "…جستجو";
+
+/* Class = "NSMenuItem"; title = "پرش به انتخاب شده"; ObjectID = "155"; */
+"155.title" = "پرش به انتخاب شده";
+
+/* Class = "NSMenuItem"; title = "کپی"; ObjectID = "157"; */
+"157.title" = "کپی";
+
+/* Class = "NSMenuItem"; title = "خنثی کردن"; ObjectID = "158"; */
+"158.title" = "خنثی کردن";
+
+/* Class = "NSMenu"; title = "جستجو"; ObjectID = "159"; */
+"159.title" = "جستجو";
+
+/* Class = "NSMenuItem"; title = "برش"; ObjectID = "160"; */
+"160.title" = "برش";
+
+/* Class = "NSMenuItem"; title = "جستجو برای انتخاب شده"; ObjectID = "161"; */
+"161.title" = "جستجو برای انتخاب شده";
+
+/* Class = "NSMenuItem"; title = "نتیجه قبلی"; ObjectID = "162"; */
+"162.title" = "نتیجه قبلی";
+
+/* Class = "NSMenuItem"; title = "ویرایش"; ObjectID = "163"; */
+"163.title" = "ویرایش";
+
+/* Class = "NSMenuItem"; title = "حذف"; ObjectID = "164"; */
+"164.title" = "حذف";
+
+/* Class = "NSMenuItem"; title = "نتیجه بعدی"; ObjectID = "167"; */
+"167.title" = "نتیجه بعدی";
+
+/* Class = "NSMenuItem"; title = "جستجو"; ObjectID = "168"; */
+"168.title" = "جستجو";
+
+/* Class = "NSMenu"; title = "ویرایش"; ObjectID = "169"; */
+"169.title" = "ویرایش";
+
+/* Class = "NSMenuItem"; title = "چسباندن"; ObjectID = "171"; */
+"171.title" = "چسباندن";
+
+/* Class = "NSMenuItem"; title = "انتخاب همه"; ObjectID = "172"; */
+"172.title" = "انتخاب همه";
+
+/* Class = "NSMenuItem"; title = "تکرار"; ObjectID = "173"; */
+"173.title" = "تکرار";
+
+/* Class = "NSMenuItem"; title = "غلطیاب املایی"; ObjectID = "184"; */
+"184.title" = "غلطیاب املایی";
+
+/* Class = "NSMenu"; title = "غلطیاب املایی"; ObjectID = "185"; */
+"185.title" = "غلطیاب املایی";
+
+/* Class = "NSMenuItem"; title = "…هجی"; ObjectID = "187"; */
+"187.title" = "…هجی";
+
+/* Class = "NSMenuItem"; title = "غلطیابی"; ObjectID = "189"; */
+"189.title" = "غلطیابی";
+
+/* Class = "NSMenuItem"; title = "غلطیابی همزمان با تایپ"; ObjectID = "191"; */
+"191.title" = "غلطیابی همزمان با تایپ";
+
+/* Class = "NSMenuItem"; title = "بزرگنمایی"; ObjectID = "203"; */
+"203.title" = "بزرگنمایی";
+
+/* Class = "NSMenuItem"; title = "...بررسی بروزسانی ها"; ObjectID = "210"; */
+"210.title" = "...بررسی بروزسانی ها";
+
+/* Class = "NSMenuItem"; title = "کشو"; ObjectID = "217"; */
+"217.title" = "کشو";
+
+/* Class = "NSMenu"; title = "نمایش"; ObjectID = "218"; */
+"218.title" = "نمایش";
+
+/* Class = "NSMenuItem"; title = "نمایش"; ObjectID = "219"; */
+"219.title" = "نمایش";
+
+/* Class = "NSMenuItem"; title = "مخفی کردن نوارابزار"; ObjectID = "220"; */
+"220.title" = "مخفی کردن نوارابزار";
+
+/* Class = "NSMenuItem"; title = "...سفارشی سازی نوارابزار"; ObjectID = "222"; */
+"222.title" = "...سفارشی سازی نوارابزار";
+
+/* Class = "NSMenuItem"; title = "قبلی"; ObjectID = "224"; */
+"224.title" = "قبلی";
+
+/* Class = "NSMenuItem"; title = "بعدی"; ObjectID = "225"; */
+"225.title" = "بعدی";
+
+/* Class = "NSMenuItem"; title = "بزرگنمایی متن"; ObjectID = "227"; */
+"227.title" = "بزرگنمایی متن";
+
+/* Class = "NSMenuItem"; title = "کوچکنمایی متن"; ObjectID = "228"; */
+"228.title" = "کوچکنمایی متن";

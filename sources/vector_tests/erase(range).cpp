@@ -31,7 +31,5 @@ std::vector<int> erase_test_2(_vector<T> vector) {
 
 int main() {
 
-    run_vector_unit_test<int>("erase(range)", erase_test_2, erase_test_2);
-
-    return (0);
+    exit(run_vector_unit_test<int>("erase(range)", erase_test_2, erase_test_2));
 }

@@ -3,7 +3,7 @@
 bool lexicographical_test() {
 	std::vector<int> result, result2;
 	std::vector<char> v1, v2;
-	_vector<char> b1, b2;
+	std::vector<char> b1, b2;
 	v1.assign(50000000, 'f');
 	v1.push_back('e');
 	v2.assign(50000000, 'f');
@@ -22,5 +22,5 @@ bool lexicographical_test() {
 }
 
 int main() {
-	run_bool_unit_test("lexicographical", lexicographical_test);
+	exit(run_bool_unit_test("lexicographical", lexicographical_test));
 }

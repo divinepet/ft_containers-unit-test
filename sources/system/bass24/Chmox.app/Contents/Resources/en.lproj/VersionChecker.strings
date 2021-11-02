@@ -1,0 +1,48 @@
+
+/* Class = "NSWindow"; title = "%@ Software Update"; ObjectID = "10"; */
+"10.title" = "%@ Software Update";
+
+/* Class = "NSWindow"; title = "%@ Software Update"; ObjectID = "51"; */
+"51.title" = "%@ Software Update";
+
+/* Class = "NSWindow"; title = "%@ Software Update"; ObjectID = "59"; */
+"59.title" = "%@ Software Update";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "96"; */
+"96.title" = "Cancel";
+
+/* Class = "NSButtonCell"; title = "Update"; ObjectID = "97"; */
+"97.title" = "Update";
+
+/* Class = "NSTextFieldCell"; title = "Update available"; ObjectID = "99"; */
+"99.title" = "Update available";
+
+/* Class = "NSTextFieldCell"; title = "This application was updated on %@.\nThe version %@ is available since %i days.\nWould you like to update your version %@ ?"; ObjectID = "100"; */
+"100.title" = "This application was updated on %@.\nThe version %@ is available since %i days.\nWould you like to update your version %@ ?";
+
+/* Class = "NSButtonCell"; title = "Check for updates automatically"; ObjectID = "101"; */
+"101.title" = "Check for updates automatically";
+
+/* Class = "NSButtonCell"; title = "Check for updates automatically"; ObjectID = "103"; */
+"103.title" = "Check for updates automatically";
+
+/* Class = "NSButtonCell"; title = "Okay"; ObjectID = "104"; */
+"104.title" = "Okay";
+
+/* Class = "NSTextFieldCell"; title = "No updates are available."; ObjectID = "105"; */
+"105.title" = "No updates are available.";
+
+/* Class = "NSTextFieldCell"; title = "Your version is up to date"; ObjectID = "106"; */
+"106.title" = "Your version is up to date";
+
+/* Class = "NSTextFieldCell"; title = "There was an error while connecting to server.  Please check your network settings or try again later."; ObjectID = "107"; */
+"107.title" = "There was an error while connecting to server.  Please check your network settings or try again later.";
+
+/* Class = "NSButtonCell"; title = "Check for updates automatically"; ObjectID = "109"; */
+"109.title" = "Check for updates automatically";
+
+/* Class = "NSButtonCell"; title = "Okay"; ObjectID = "110"; */
+"110.title" = "Okay";
+
+/* Class = "NSTextFieldCell"; title = "Error while checking for the latest version"; ObjectID = "111"; */
+"111.title" = "Error while checking for the latest version";

@@ -33,7 +33,5 @@ std::vector<int> insert_test_3(_vector<T> vector) {
 
 int main() {
 
-    run_vector_unit_test<int>("insert(range)", insert_test_3, insert_test_3);
-
-    return (0);
+    exit(run_vector_unit_test<int>("insert(range)", insert_test_3, insert_test_3));
 }

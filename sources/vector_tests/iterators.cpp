@@ -41,7 +41,5 @@ std::vector<int> iterator_test(_vector<T> vector) {
 
 int main() {
 
-    run_vector_unit_test<int>("iterators", iterator_test, iterator_test);
-
-    return (0);
+    exit(run_vector_unit_test<int>("iterators", iterator_test, iterator_test));
 }

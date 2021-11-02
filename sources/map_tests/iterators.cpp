@@ -75,7 +75,5 @@ std::vector<int> iterators_test(_map<T, V> mp) {
 
 int main() {
 
-    run_map_unit_test<int, int>("iterators", iterators_test, iterators_test);
-
-    return (0);
+    exit(run_map_unit_test<int, int>("iterators", iterators_test, iterators_test));
 }

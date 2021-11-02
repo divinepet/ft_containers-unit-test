@@ -1,0 +1,48 @@
+
+/* Class = "NSWindow"; title = "%@ Aggiornamento Software"; ObjectID = "10"; */
+"10.title" = "%@ Aggiornamento Software";
+
+/* Class = "NSWindow"; title = "%@ Aggiornamento Software"; ObjectID = "51"; */
+"51.title" = "%@ Aggiornamento Software";
+
+/* Class = "NSWindow"; title = "%@ Aggiornamento Software"; ObjectID = "59"; */
+"59.title" = "%@ Aggiornamento Software";
+
+/* Class = "NSButtonCell"; title = "Annulla"; ObjectID = "96"; */
+"96.title" = "Annulla";
+
+/* Class = "NSButtonCell"; title = "Aggiorna"; ObjectID = "97"; */
+"97.title" = "Aggiorna";
+
+/* Class = "NSTextFieldCell"; title = "Aggiornamento disponibile"; ObjectID = "99"; */
+"99.title" = "Aggiornamento disponibile";
+
+/* Class = "NSTextFieldCell"; title = "Il programma è stato aggiornato il %@.\nLa versione %@ è disponibile da %i giorni.\nVuoi aggiornare la tua versione %@ ?"; ObjectID = "100"; */
+"100.title" = "Il programma è stato aggiornato il %@.\nLa versione %@ è disponibile da %i giorni.\nVuoi aggiornare la tua versione %@ ?";
+
+/* Class = "NSButtonCell"; title = "Verifica automaticamente\ngli aggiornamenti"; ObjectID = "101"; */
+"101.title" = "Verifica automaticamente\ngli aggiornamenti";
+
+/* Class = "NSButtonCell"; title = "Verifica automaticamente\ngli aggiornamenti"; ObjectID = "103"; */
+"103.title" = "Verifica automaticamente\ngli aggiornamenti";
+
+/* Class = "NSButtonCell"; title = "Fatto"; ObjectID = "104"; */
+"104.title" = "Fatto";
+
+/* Class = "NSTextFieldCell"; title = "Non ci sono aggiornamenti disponibili."; ObjectID = "105"; */
+"105.title" = "Non ci sono aggiornamenti disponibili.";
+
+/* Class = "NSTextFieldCell"; title = "La tua versione è aggiornata"; ObjectID = "106"; */
+"106.title" = "La tua versione è aggiornata";
+
+/* Class = "NSTextFieldCell"; title = "Si è verificato un errore durante la connessione al server.\nVerifica le impostazioni di rete o riprova più tardi."; ObjectID = "107"; */
+"107.title" = "Si è verificato un errore durante la connessione al server.\nVerifica le impostazioni di rete o riprova più tardi.";
+
+/* Class = "NSButtonCell"; title = "Verifica automaticamente\ngli aggiornamenti"; ObjectID = "109"; */
+"109.title" = "Verifica automaticamente\ngli aggiornamenti";
+
+/* Class = "NSButtonCell"; title = "Fatto"; ObjectID = "110"; */
+"110.title" = "Fatto";
+
+/* Class = "NSTextFieldCell"; title = "Attenzione!"; ObjectID = "111"; */
+"111.title" = "Attenzione!";

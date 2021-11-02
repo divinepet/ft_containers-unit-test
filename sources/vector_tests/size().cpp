@@ -23,7 +23,5 @@ std::vector<int> size_test(_vector<T> vector) {
 
 int main() {
 
-    run_vector_unit_test<int>("size()", size_test, size_test);
-
-    return (0);
+    exit(run_vector_unit_test<int>("size()", size_test, size_test));
 }

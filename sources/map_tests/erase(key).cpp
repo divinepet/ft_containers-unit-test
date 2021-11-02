@@ -75,7 +75,5 @@ std::vector<int> erase_test_1(_map<T, V> mp) {
 
 int main() {
 
-    run_map_unit_test<int, int>("erase(key)", erase_test_1, erase_test_1);
-
-    return (0);
+    exit(run_map_unit_test<int, int>("erase(key)", erase_test_1, erase_test_1));
 }

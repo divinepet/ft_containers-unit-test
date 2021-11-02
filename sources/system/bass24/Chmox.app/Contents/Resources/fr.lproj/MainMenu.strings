@@ -1,0 +1,177 @@
+
+/* Class = "NSMenuItem"; title = "Tout ramener au premier plan"; ObjectID = "5"; */
+"5.title" = "Tout ramener au premier plan";
+
+/* Class = "NSMenuItem"; title = "Fenêtre"; ObjectID = "19"; */
+"19.title" = "Fenêtre";
+
+/* Class = "NSMenuItem"; title = "Placer dans le Dock"; ObjectID = "23"; */
+"23.title" = "Placer dans le Dock";
+
+/* Class = "NSMenu"; title = "Fenêtre"; ObjectID = "24"; */
+"24.title" = "Fenêtre";
+
+/* Class = "NSMenu"; title = "MainMenu"; ObjectID = "29"; */
+"29.title" = "MainMenu";
+
+/* Class = "NSMenuItem"; title = "Chmox"; ObjectID = "56"; */
+"56.title" = "Chmox";
+
+/* Class = "NSMenu"; title = "Chmox"; ObjectID = "57"; */
+"57.title" = "Chmox";
+
+/* Class = "NSMenuItem"; title = "À propos de Chmox"; ObjectID = "58"; */
+"58.title" = "À propos de Chmox";
+
+/* Class = "NSMenuItem"; title = "Ouvrir…"; ObjectID = "72"; */
+"72.title" = "Ouvrir…";
+
+/* Class = "NSMenuItem"; title = "Fermer"; ObjectID = "73"; */
+"73.title" = "Fermer";
+
+/* Class = "NSMenuItem"; title = "Format d'impression…"; ObjectID = "77"; */
+"77.title" = "Format d'impression…";
+
+/* Class = "NSMenuItem"; title = "Imprimer…"; ObjectID = "78"; */
+"78.title" = "Imprimer…";
+
+/* Class = "NSMenu"; title = "Fichier"; ObjectID = "81"; */
+"81.title" = "Fichier";
+
+/* Class = "NSMenuItem"; title = "Fichier"; ObjectID = "83"; */
+"83.title" = "Fichier";
+
+/* Class = "NSMenuItem"; title = "Aide"; ObjectID = "103"; */
+"103.title" = "Aide";
+
+/* Class = "NSMenu"; title = "Aide"; ObjectID = "106"; */
+"106.title" = "Aide";
+
+/* Class = "NSMenuItem"; title = "Aide Chmox"; ObjectID = "111"; */
+"111.title" = "Aide Chmox";
+
+/* Class = "NSMenuItem"; title = "Ouvrir récent"; ObjectID = "124"; */
+"124.title" = "Ouvrir récent";
+
+/* Class = "NSMenu"; title = "Ouvrir récent"; ObjectID = "125"; */
+"125.title" = "Ouvrir récent";
+
+/* Class = "NSMenuItem"; title = "Effacer le menu"; ObjectID = "126"; */
+"126.title" = "Effacer le menu";
+
+/* Class = "NSMenuItem"; title = "Préférences…"; ObjectID = "129"; */
+"129.title" = "Préférences…";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "130"; */
+"130.title" = "Services";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "131"; */
+"131.title" = "Services";
+
+/* Class = "NSMenuItem"; title = "Masquer Chmox"; ObjectID = "134"; */
+"134.title" = "Masquer Chmox";
+
+/* Class = "NSMenuItem"; title = "Quitter Chmox"; ObjectID = "136"; */
+"136.title" = "Quitter Chmox";
+
+/* Class = "NSMenuItem"; title = "Masquer les autres"; ObjectID = "145"; */
+"145.title" = "Masquer les autres";
+
+/* Class = "NSMenuItem"; title = "Tout afficher"; ObjectID = "150"; */
+"150.title" = "Tout afficher";
+
+/* Class = "NSMenuItem"; title = "Rechercher…"; ObjectID = "154"; */
+"154.title" = "Rechercher…";
+
+/* Class = "NSMenuItem"; title = "Aller à la sélection"; ObjectID = "155"; */
+"155.title" = "Aller à la sélection";
+
+/* Class = "NSMenuItem"; title = "Copier"; ObjectID = "157"; */
+"157.title" = "Copier";
+
+/* Class = "NSMenuItem"; title = "Annuler"; ObjectID = "158"; */
+"158.title" = "Annuler";
+
+/* Class = "NSMenu"; title = "Rechercher"; ObjectID = "159"; */
+"159.title" = "Rechercher";
+
+/* Class = "NSMenuItem"; title = "Couper"; ObjectID = "160"; */
+"160.title" = "Couper";
+
+/* Class = "NSMenuItem"; title = "Rechercher la sélection"; ObjectID = "161"; */
+"161.title" = "Rechercher la sélection";
+
+/* Class = "NSMenuItem"; title = "Rechercher le précédent"; ObjectID = "162"; */
+"162.title" = "Rechercher le précédent";
+
+/* Class = "NSMenuItem"; title = "Édition"; ObjectID = "163"; */
+"163.title" = "Édition";
+
+/* Class = "NSMenuItem"; title = "Effacer"; ObjectID = "164"; */
+"164.title" = "Effacer";
+
+/* Class = "NSMenuItem"; title = "Rechercher le suivant"; ObjectID = "167"; */
+"167.title" = "Rechercher le suivant";
+
+/* Class = "NSMenuItem"; title = "Rechercher"; ObjectID = "168"; */
+"168.title" = "Rechercher";
+
+/* Class = "NSMenu"; title = "Édition"; ObjectID = "169"; */
+"169.title" = "Édition";
+
+/* Class = "NSMenuItem"; title = "Coller"; ObjectID = "171"; */
+"171.title" = "Coller";
+
+/* Class = "NSMenuItem"; title = "Tout sélectionner"; ObjectID = "172"; */
+"172.title" = "Tout sélectionner";
+
+/* Class = "NSMenuItem"; title = "Rétablir"; ObjectID = "173"; */
+"173.title" = "Rétablir";
+
+/* Class = "NSMenuItem"; title = "Orthographe"; ObjectID = "184"; */
+"184.title" = "Orthographe";
+
+/* Class = "NSMenu"; title = "Orthographe"; ObjectID = "185"; */
+"185.title" = "Orthographe";
+
+/* Class = "NSMenuItem"; title = "Orthographe…"; ObjectID = "187"; */
+"187.title" = "Orthographe…";
+
+/* Class = "NSMenuItem"; title = "Vérifier l'orthographe"; ObjectID = "189"; */
+"189.title" = "Vérifier l'orthographe";
+
+/* Class = "NSMenuItem"; title = "Vérifier l'orthographe lors de la frappe"; ObjectID = "191"; */
+"191.title" = "Vérifier l'orthographe lors de la frappe";
+
+/* Class = "NSMenuItem"; title = "Réduire/agrandir"; ObjectID = "203"; */
+"203.title" = "Réduire/agrandir";
+
+/* Class = "NSMenuItem"; title = "Vérifier les mises à jour…"; ObjectID = "210"; */
+"210.title" = "Vérifier les mises à jour…";
+
+/* Class = "NSMenuItem"; title = "Navigation"; ObjectID = "217"; */
+"217.title" = "Navigation";
+
+/* Class = "NSMenu"; title = "Présentation"; ObjectID = "218"; */
+"218.title" = "Présentation";
+
+/* Class = "NSMenuItem"; title = "Présentation"; ObjectID = "219"; */
+"219.title" = "Présentation";
+
+/* Class = "NSMenuItem"; title = "Masquer la barre d'outils"; ObjectID = "220"; */
+"220.title" = "Masquer la barre d'outils";
+
+/* Class = "NSMenuItem"; title = "Personnaliser la barre d'outils…"; ObjectID = "222"; */
+"222.title" = "Personnaliser la barre d'outils…";
+
+/* Class = "NSMenuItem"; title = "Précédent"; ObjectID = "224"; */
+"224.title" = "Précédent";
+
+/* Class = "NSMenuItem"; title = "Suivant"; ObjectID = "225"; */
+"225.title" = "Suivant";
+
+/* Class = "NSMenuItem"; title = "Augmenter la taille de la police"; ObjectID = "227"; */
+"227.title" = "Augmenter la taille de la police";
+
+/* Class = "NSMenuItem"; title = "Réduire la taille de la police"; ObjectID = "228"; */
+"228.title" = "Réduire la taille de la police";

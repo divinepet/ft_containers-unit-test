@@ -31,7 +31,5 @@ std::vector<int> erase_test_3(_map<T, V> mp) {
 
 int main() {
 
-    run_map_unit_test<int, int>("erase(InputIt)", erase_test_3, erase_test_3);
-
-    return (0);
+    exit(run_map_unit_test<int, int>("erase(InputIt)", erase_test_3, erase_test_3));
 }

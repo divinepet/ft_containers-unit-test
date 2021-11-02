@@ -29,7 +29,5 @@ std::vector<int> data_test(_vector<T> vector) {
 
 int main() {
 
-    run_vector_unit_test<int>("data()", data_test, data_test);
-
-    return (0);
+    exit(run_vector_unit_test<int>("data()", data_test, data_test));
 }

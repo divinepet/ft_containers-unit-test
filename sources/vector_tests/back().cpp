@@ -27,7 +27,5 @@ std::vector<int> back_test(_vector<T> vector) {
 
 int main() {
 
-    run_vector_unit_test<int>("back()", back_test, back_test);
-
-    return (0);
+    exit(run_vector_unit_test<int>("back()", back_test, back_test));
 }

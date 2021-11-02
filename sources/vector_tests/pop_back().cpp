@@ -29,7 +29,5 @@ std::vector<int> pop_back_test(_vector<T> vector) {
 
 int main() {
 
-    run_vector_unit_test<int>("pop_back()", pop_back_test, pop_back_test);
-
-    return (0);
+    exit(run_vector_unit_test<int>("pop_back()", pop_back_test, pop_back_test));
 }

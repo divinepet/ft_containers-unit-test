@@ -33,7 +33,5 @@ std::vector<int> top_test(_stack<T> stk) {
 
 int main() {
 
-	run_stack_unit_test<int>("top()", top_test, top_test);
-
-	return (0);
+	exit(run_stack_unit_test<int>("top()", top_test, top_test));
 }

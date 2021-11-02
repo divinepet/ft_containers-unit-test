@@ -41,7 +41,5 @@ std::vector<int> copy_constructor_test(_map<T, V> mp) {
 
 int main() {
 
-    run_map_unit_test<int, int>("constructor(InputIt)", copy_constructor_test, copy_constructor_test);
-
-    return (0);
+    exit(run_map_unit_test<int, int>("constructor(InputIt)", copy_constructor_test, copy_constructor_test));
 }

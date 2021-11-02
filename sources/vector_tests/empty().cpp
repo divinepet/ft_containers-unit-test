@@ -23,7 +23,5 @@ std::vector<int> empty_test(_vector<T> vector) {
 
 int main() {
 
-    run_vector_unit_test<int>("empty()", empty_test, empty_test);
-
-    return (0);
+    exit(run_vector_unit_test<int>("empty()", empty_test, empty_test));
 }

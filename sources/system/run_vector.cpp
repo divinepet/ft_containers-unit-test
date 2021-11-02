@@ -9,7 +9,7 @@ int main(int argc, char* argv[], char* env[]) {
 	printElement(WHITE + "LEAKS" + RESET); cout << endl;
 
 	runFunctionTest("../vector_tests/constructor.cpp", argv, env);
-	runFunctionTest("../vector_tests/constructor(std_iter).cpp", argv, env);
+	runFunctionTest("../vector_tests/constructor(std iterators).cpp", argv, env);
 	runFunctionTest("../vector_tests/iterators.cpp", argv, env);
 	runFunctionTest("../vector_tests/begin().cpp", argv, env);
 	runFunctionTest("../vector_tests/end().cpp", argv, env);
@@ -26,25 +26,28 @@ int main(int argc, char* argv[], char* env[]) {
 	runFunctionTest("../vector_tests/front().cpp", argv, env);
 	runFunctionTest("../vector_tests/back().cpp", argv, env);
 	runFunctionTest("../vector_tests/assign().cpp", argv, env);
-	runFunctionTest("../vector_tests/assign(std_iter).cpp", argv, env);
+	runFunctionTest("../vector_tests/assign(std iterators).cpp", argv, env);
 	runFunctionTest("../vector_tests/push_back().cpp", argv, env);
 	runFunctionTest("../vector_tests/pop_back().cpp", argv, env);
-	runFunctionTest("../vector_tests/insert(single).cpp", argv, env);
+	runFunctionTest("../vector_tests/insert(value).cpp", argv, env);
 	runFunctionTest("../vector_tests/insert(fill).cpp", argv, env);
 	runFunctionTest("../vector_tests/insert(range).cpp", argv, env);
-	runFunctionTest("../vector_tests/insert(std_iter).cpp", argv, env);
+	runFunctionTest("../vector_tests/insert(std iterators).cpp", argv, env);
 	runFunctionTest("../vector_tests/erase(value).cpp", argv, env);
 	runFunctionTest("../vector_tests/erase(range).cpp", argv, env);
 	runFunctionTest("../vector_tests/swap().cpp", argv, env);
 	runFunctionTest("../vector_tests/clear().cpp", argv, env);
 	runFunctionTest("../vector_tests/data().cpp", argv, env);
-	runFunctionTest("../vector_tests/using_allocator.cpp", argv, env);
-	runFunctionTest("../vector_tests/operator==.cpp", argv, env);
-	runFunctionTest("../vector_tests/operator!=.cpp", argv, env);
-	runFunctionTest("../vector_tests/operator<.cpp", argv, env);
-	runFunctionTest("../vector_tests/operator>.cpp", argv, env);
-	runFunctionTest("../vector_tests/operator<=.cpp", argv, env);
-	runFunctionTest("../vector_tests/operator>=.cpp", argv, env);
+	runFunctionTest("../vector_tests/using allocator.cpp", argv, env);
+	runFunctionTest("../vector_tests/operator ==.cpp", argv, env);
+	runFunctionTest("../vector_tests/operator !=.cpp", argv, env);
+	runFunctionTest("../vector_tests/operator <.cpp", argv, env);
+	runFunctionTest("../vector_tests/operator >.cpp", argv, env);
+	runFunctionTest("../vector_tests/operator <=.cpp", argv, env);
+	runFunctionTest("../vector_tests/operator >=.cpp", argv, env);
+
+	saveResult("vector_res");
+	outputCurrentResult("VECTOR", _VECTOR_TEST_NUM);
 
 	return 0;
 }

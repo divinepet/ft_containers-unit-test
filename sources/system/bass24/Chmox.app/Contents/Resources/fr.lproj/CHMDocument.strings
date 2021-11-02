@@ -1,0 +1,36 @@
+
+/* Class = "NSWindow"; title = "Chmox"; ObjectID = "26"; */
+"26.title" = "Chmox";
+
+/* Class = "NSTabViewItem"; label = "Recherche"; ObjectID = "35"; */
+"35.label" = "Recherche";
+
+/* Class = "NSTabViewItem"; label = "Contenu"; ObjectID = "36"; */
+"36.label" = "Contenu";
+
+/* Class = "NSTabViewItem"; label = "Signets"; ObjectID = "40"; */
+"40.label" = "Signets";
+
+/* Class = "NSTableColumn"; headerCell.title = "Emplacement"; ObjectID = "53"; */
+"53.headerCell.title" = "Emplacement";
+
+/* Class = "NSButtonCell"; title = "Rechercher les résultats précédents."; ObjectID = "80"; */
+"80.title" = "Rechercher les résultats précédents.";
+
+/* Class = "NSButtonCell"; title = "Respecter les mots similaires."; ObjectID = "81"; */
+"81.title" = "Respecter les mots similaires.";
+
+/* Class = "NSButtonCell"; title = "Rechercher uniquement dans les titres."; ObjectID = "82"; */
+"82.title" = "Rechercher uniquement dans les titres.";
+
+/* Class = "NSSearchFieldCell"; placeholderString = "Mots à chercher"; ObjectID = "131"; */
+"131.placeholderString" = "Mots à chercher";
+
+/* Class = "NSButtonCell"; title = "+"; ObjectID = "132"; */
+"132.title" = "+";
+
+/* Class = "NSButtonCell"; title = "-"; ObjectID = "133"; */
+"133.title" = "-";
+
+/* Class = "NSButtonCell"; title = "Rechercher les résultats précédents."; ObjectID = "135"; */
+"135.title" = "Rechercher les résultats précédents.";

@@ -73,7 +73,5 @@ std::vector<int> erase_test_2(_set<T> st) {
 
 int main() {
 
-    run_set_unit_test<int>("erase(pos)", erase_test_2, erase_test_2);
-
-    return (0);
+    exit(run_set_unit_test<int>("erase(pos)", erase_test_2, erase_test_2));
 }

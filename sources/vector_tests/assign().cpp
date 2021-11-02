@@ -43,7 +43,5 @@ std::vector<int> assign_test(_vector<T> vector) {
 
 int main() {
 
-    run_vector_unit_test<int>("assign()", assign_test, assign_test);
-
-    return (0);
+    exit(run_vector_unit_test<int>("assign()", assign_test, assign_test));
 }

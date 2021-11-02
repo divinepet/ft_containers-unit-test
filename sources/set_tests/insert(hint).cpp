@@ -34,7 +34,6 @@ std::vector<int> insert_test_3(_set<T> st) {
 }
 
 int main() {
-    run_set_unit_test<int>("insert(hint)", insert_test_3, insert_test_3);
 
-    return (0);
+    exit(run_set_unit_test<int>("insert(hint)", insert_test_3, insert_test_3));
 }

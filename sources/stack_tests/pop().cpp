@@ -29,7 +29,5 @@ std::vector<int> pop_test(_stack<T> stk) {
 
 int main() {
 
-	run_stack_unit_test<int>("pop()", pop_test, pop_test);
-
-	return (0);
+	exit(run_stack_unit_test<int>("pop()", pop_test, pop_test));
 }

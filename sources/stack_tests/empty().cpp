@@ -31,7 +31,5 @@ std::vector<int> empty_test(_stack<T> stk) {
 
 int main() {
 
-	run_stack_unit_test<int>("empty()", empty_test, empty_test);
-
-	return (0);
+	exit(run_stack_unit_test<int>("empty()", empty_test, empty_test));
 }

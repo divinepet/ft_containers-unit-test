@@ -49,8 +49,10 @@ public:
 };
 
 template <class T>
-void run_set_unit_test(std::string test_name, std::vector<int> (func1)(std::set<T>), std::vector<int> (func2)(_set<T>)) {
-	time_t t1;
+int run_set_unit_test(std::string test_name, std::vector<int> (func1)(std::set<T>), std::vector<int> (func2)(_set<T>)) {
+    int    result;
+    int    leaks;
+    time_t t1;
 	time_t t2;
 	std::vector<int > res1;
 	std::vector<int > res2;
@@ -60,22 +62,39 @@ void run_set_unit_test(std::string test_name, std::vector<int> (func1)(std::set<
 	printElement(test_name);
 	res1 = func1(set);
 	res2 = func2(my_set);
-	(res1 == res2) ? printElement("OK") : printElement("FAILED");
+	if (res1 == res2) {
+	    printElement("OK");
+	    result = 0;
+	}
+	else {
+	    printElement("FAILED");
+	    result = 1;
+	}
 	t1 = g_end1 - g_start1, t2 = g_end2 - g_start2;
 	(t1 >= t2) ? printElement(GREEN + std::to_string(t2) + "ms" + RESET) : printElement(REDD + std::to_string(t2) + "ms" + RESET);
 	(t1 > t2) ? printElement(REDD + std::to_string(t1) + "ms" + RESET) : printElement(GREEN + std::to_string(t1) + "ms" + RESET);
-	leaks_test(getpid());
+	leaks = leaks_test(getpid());
 	cout << endl;
+
+	return !(!result && !leaks);
 }
 
 template <class T, class C, class A>
-void run_set_allocator_unit_test(std::string test_name, void (func)(_set<T, C, A>)) {
+int run_set_allocator_unit_test(std::string test_name, void (func)(_set<T, C, A>)) {
     time_t t1;
     time_t t2;
     _set<T, C, A> my_set;
 
     printElement(test_name);
     func(my_set);
-    (_allocator_used) ? printElement("OK") : printElement("FAILED");
-    cout << endl;
+    if (_allocator_used) {
+        printElement("OK");
+        cout << endl;
+        return (0);
+    }
+    else {
+        printElement("FAILED");
+        cout << endl;
+        return (1);
+    }
 }

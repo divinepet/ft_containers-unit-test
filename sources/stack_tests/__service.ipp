@@ -23,8 +23,10 @@ public:
 };
 
 template <class T>
-void run_stack_unit_test(std::string test_name, std::vector<int> (func1)(std::stack<T>), std::vector<int> (func2)(_stack<T>)) {
-	time_t t1;
+int run_stack_unit_test(std::string test_name, std::vector<int> (func1)(std::stack<T>), std::vector<int> (func2)(_stack<T>)) {
+    int    result;
+    int    leaks;
+    time_t t1;
 	time_t t2;
 	std::vector<int > res1;
 	std::vector<int > res2;
@@ -34,10 +36,19 @@ void run_stack_unit_test(std::string test_name, std::vector<int> (func1)(std::st
 	printElement(test_name);
 	res1 = func1(stack);
 	res2 = func2(my_stack);
-	(res1 == res2) ? printElement("OK") : printElement("FAILED");
+	if (res1 == res2) {
+	    printElement("OK");
+	    result = 0;
+	}
+	else {
+	    printElement("FAILED");
+	    result = 1;
+	}
 	t1 = g_end1 - g_start1, t2 = g_end2 - g_start2;
 	(t1 >= t2) ? printElement(GREEN + std::to_string(t2) + "ms" + RESET) : printElement(REDD + std::to_string(t2) + "ms" + RESET);
 	(t1 > t2) ? printElement(REDD + std::to_string(t1) + "ms" + RESET) : printElement(GREEN + std::to_string(t1) + "ms" + RESET);
-	leaks_test(getpid());
+	leaks = leaks_test(getpid());
 	cout << endl;
+
+	return !(!result && !leaks);;
 }

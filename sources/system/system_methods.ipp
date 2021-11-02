@@ -32,7 +32,7 @@ std::string get_leak_string(std::string s) {
 	return s.substr(++idx, edx - 101);
 }
 
-void leaks_test(pid_t pid) {
+int leaks_test(pid_t pid) {
 	string a = "leaks ";
 	a += std::to_string(static_cast<int>(pid));
 	usleep(50);
@@ -40,22 +40,35 @@ void leaks_test(pid_t pid) {
 
 	if (s.find("0 leaks for 0 total leaked bytes") != std::string::npos) {
 		printElement(GREEN + "CLEAR" + RESET);
+		return (0);
 	}
-	else
-		printElement(REDD + "LEAKS" + RESET);
+	else {
+	    printElement(REDD + "LEAKS" + RESET);
+	    return (1);
+	}
 }
 
-void run_bool_unit_test(std::string test_name, bool (func1)()) {
+int run_bool_unit_test(std::string test_name, bool (func1)()) {
+    int ret = 0;
     time_t t1;
     time_t t2;
     bool res;
 
 	printElement(test_name);
 	res = func1();
-	(res) ? printElement("OK") : printElement("FAILED");
+	if (res) {
+	    printElement("OK");
+	    ret = 0;
+	}
+	else {
+	    printElement("FAILED");
+	    ret = 1;
+	}
 	t1 = g_end1 - g_start1, t2 = g_end2 - g_start2;
 	(t1 >= t2) ? printElement(GREEN + std::to_string(t2) + "ms" + RESET) : printElement(REDD + std::to_string(t2) + "ms" + RESET);
 	(t1 > t2) ? printElement(REDD + std::to_string(t1) + "ms" + RESET) : printElement(GREEN + std::to_string(t1) + "ms" + RESET);
 	cout << endl;
+
+    return ret;
 }
 

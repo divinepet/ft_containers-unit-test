@@ -1,0 +1,177 @@
+
+/* Class = "NSMenuItem"; title = "將此程式所有視窗移至最前"; ObjectID = "5"; */
+"5.title" = "將此程式所有視窗移至最前";
+
+/* Class = "NSMenuItem"; title = "視窗"; ObjectID = "19"; */
+"19.title" = "視窗";
+
+/* Class = "NSMenuItem"; title = "縮到最小"; ObjectID = "23"; */
+"23.title" = "縮到最小";
+
+/* Class = "NSMenu"; title = "視窗"; ObjectID = "24"; */
+"24.title" = "視窗";
+
+/* Class = "NSMenu"; title = "MainMenu"; ObjectID = "29"; */
+"29.title" = "MainMenu";
+
+/* Class = "NSMenuItem"; title = "Chmox"; ObjectID = "56"; */
+"56.title" = "Chmox";
+
+/* Class = "NSMenu"; title = "Chmox"; ObjectID = "57"; */
+"57.title" = "Chmox";
+
+/* Class = "NSMenuItem"; title = "關於 Chmox"; ObjectID = "58"; */
+"58.title" = "關於 Chmox";
+
+/* Class = "NSMenuItem"; title = "打開…"; ObjectID = "72"; */
+"72.title" = "打開…";
+
+/* Class = "NSMenuItem"; title = "關閉"; ObjectID = "73"; */
+"73.title" = "關閉";
+
+/* Class = "NSMenuItem"; title = "設定頁面…"; ObjectID = "77"; */
+"77.title" = "設定頁面…";
+
+/* Class = "NSMenuItem"; title = "列印…"; ObjectID = "78"; */
+"78.title" = "列印…";
+
+/* Class = "NSMenu"; title = "檔案"; ObjectID = "81"; */
+"81.title" = "檔案";
+
+/* Class = "NSMenuItem"; title = "檔案"; ObjectID = "83"; */
+"83.title" = "檔案";
+
+/* Class = "NSMenuItem"; title = "輔助說明"; ObjectID = "103"; */
+"103.title" = "輔助說明";
+
+/* Class = "NSMenu"; title = "輔助說明"; ObjectID = "106"; */
+"106.title" = "輔助說明";
+
+/* Class = "NSMenuItem"; title = "Chmox 輔助說明"; ObjectID = "111"; */
+"111.title" = "Chmox 輔助說明";
+
+/* Class = "NSMenuItem"; title = "打開最近使用過的項目"; ObjectID = "124"; */
+"124.title" = "打開最近使用過的項目";
+
+/* Class = "NSMenu"; title = "打開最近使用過的項目"; ObjectID = "125"; */
+"125.title" = "打開最近使用過的項目";
+
+/* Class = "NSMenuItem"; title = "清除選單"; ObjectID = "126"; */
+"126.title" = "清除選單";
+
+/* Class = "NSMenuItem"; title = "偏好設定…"; ObjectID = "129"; */
+"129.title" = "偏好設定…";
+
+/* Class = "NSMenu"; title = "服務"; ObjectID = "130"; */
+"130.title" = "服務";
+
+/* Class = "NSMenuItem"; title = "服務"; ObjectID = "131"; */
+"131.title" = "服務";
+
+/* Class = "NSMenuItem"; title = "隱藏 Chmox"; ObjectID = "134"; */
+"134.title" = "隱藏 Chmox";
+
+/* Class = "NSMenuItem"; title = "結束 Chmox"; ObjectID = "136"; */
+"136.title" = "結束 Chmox";
+
+/* Class = "NSMenuItem"; title = "隱藏其他"; ObjectID = "145"; */
+"145.title" = "隱藏其他";
+
+/* Class = "NSMenuItem"; title = "顯示全部"; ObjectID = "150"; */
+"150.title" = "顯示全部";
+
+/* Class = "NSMenuItem"; title = "尋找…"; ObjectID = "154"; */
+"154.title" = "尋找…";
+
+/* Class = "NSMenuItem"; title = "跳至所選範圍"; ObjectID = "155"; */
+"155.title" = "跳至所選範圍";
+
+/* Class = "NSMenuItem"; title = "拷貝"; ObjectID = "157"; */
+"157.title" = "拷貝";
+
+/* Class = "NSMenuItem"; title = "還原"; ObjectID = "158"; */
+"158.title" = "還原";
+
+/* Class = "NSMenu"; title = "尋找"; ObjectID = "159"; */
+"159.title" = "尋找";
+
+/* Class = "NSMenuItem"; title = "剪下"; ObjectID = "160"; */
+"160.title" = "剪下";
+
+/* Class = "NSMenuItem"; title = "使用所選範圍尋找"; ObjectID = "161"; */
+"161.title" = "使用所選範圍尋找";
+
+/* Class = "NSMenuItem"; title = "尋找上一個"; ObjectID = "162"; */
+"162.title" = "尋找上一個";
+
+/* Class = "NSMenuItem"; title = "編輯"; ObjectID = "163"; */
+"163.title" = "編輯";
+
+/* Class = "NSMenuItem"; title = "刪除"; ObjectID = "164"; */
+"164.title" = "刪除";
+
+/* Class = "NSMenuItem"; title = "尋找下一個"; ObjectID = "167"; */
+"167.title" = "尋找下一個";
+
+/* Class = "NSMenuItem"; title = "尋找"; ObjectID = "168"; */
+"168.title" = "尋找";
+
+/* Class = "NSMenu"; title = "編輯"; ObjectID = "169"; */
+"169.title" = "編輯";
+
+/* Class = "NSMenuItem"; title = "貼上"; ObjectID = "171"; */
+"171.title" = "貼上";
+
+/* Class = "NSMenuItem"; title = "全選"; ObjectID = "172"; */
+"172.title" = "全選";
+
+/* Class = "NSMenuItem"; title = "重作"; ObjectID = "173"; */
+"173.title" = "重作";
+
+/* Class = "NSMenuItem"; title = "拼字檢查"; ObjectID = "184"; */
+"184.title" = "拼字檢查";
+
+/* Class = "NSMenu"; title = "拼字檢查"; ObjectID = "185"; */
+"185.title" = "拼字檢查";
+
+/* Class = "NSMenuItem"; title = "拼字檢查…"; ObjectID = "187"; */
+"187.title" = "拼字檢查…";
+
+/* Class = "NSMenuItem"; title = "檢查拼字"; ObjectID = "189"; */
+"189.title" = "檢查拼字";
+
+/* Class = "NSMenuItem"; title = "在輸入時同步檢查拼字"; ObjectID = "191"; */
+"191.title" = "在輸入時同步檢查拼字";
+
+/* Class = "NSMenuItem"; title = "縮放視窗"; ObjectID = "203"; */
+"203.title" = "縮放視窗";
+
+/* Class = "NSMenuItem"; title = "檢查更新..."; ObjectID = "210"; */
+"210.title" = "檢查更新...";
+
+/* Class = "NSMenuItem"; title = "抽屜"; ObjectID = "217"; */
+"217.title" = "抽屜";
+
+/* Class = "NSMenu"; title = "顯示方式"; ObjectID = "218"; */
+"218.title" = "顯示方式";
+
+/* Class = "NSMenuItem"; title = "顯示方式"; ObjectID = "219"; */
+"219.title" = "顯示方式";
+
+/* Class = "NSMenuItem"; title = "隱藏工具列"; ObjectID = "220"; */
+"220.title" = "隱藏工具列";
+
+/* Class = "NSMenuItem"; title = "自定工具列..."; ObjectID = "222"; */
+"222.title" = "自定工具列...";
+
+/* Class = "NSMenuItem"; title = "返回"; ObjectID = "224"; */
+"224.title" = "返回";
+
+/* Class = "NSMenuItem"; title = "往前"; ObjectID = "225"; */
+"225.title" = "往前";
+
+/* Class = "NSMenuItem"; title = "加大字級"; ObjectID = "227"; */
+"227.title" = "加大字級";
+
+/* Class = "NSMenuItem"; title = "縮小字級"; ObjectID = "228"; */
+"228.title" = "縮小字級";

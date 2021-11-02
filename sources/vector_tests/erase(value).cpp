@@ -31,7 +31,5 @@ std::vector<int> erase_test_1(_vector<T> vector) {
 
 int main() {
 
-    run_vector_unit_test<int>("erase(value)", erase_test_1, erase_test_1);
-
-    return (0);
+    exit(run_vector_unit_test<int>("erase(value)", erase_test_1, erase_test_1));
 }

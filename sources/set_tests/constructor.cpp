@@ -35,8 +35,5 @@ std::vector<int> copy_constructor_test(_set<T> st) {
 }
 
 int main() {
-
-    run_set_unit_test<int>("constructor(InputIt)", copy_constructor_test, copy_constructor_test);
-
-    return (0);
+    exit(run_set_unit_test<int>("constructor", copy_constructor_test, copy_constructor_test));
 }

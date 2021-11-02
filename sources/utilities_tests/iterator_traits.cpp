@@ -34,7 +34,5 @@ bool iterator_traits_test() {
 
 int main() {
 
-	run_bool_unit_test("iterators traits", iterator_traits_test);
-
-	return (0);
+	exit(run_bool_unit_test("iterators_traits", iterator_traits_test));
 }

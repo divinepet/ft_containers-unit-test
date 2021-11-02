@@ -36,7 +36,6 @@ std::vector<int> insert_test_3(_map<T, V> mp) {
 }
 
 int main() {
-    run_map_unit_test<int, int>("insert(hint)", insert_test_3, insert_test_3);
 
-    return (0);
+    exit(run_map_unit_test<int, int>("insert(hint)", insert_test_3, insert_test_3));
 }

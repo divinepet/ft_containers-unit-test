@@ -16,11 +16,15 @@ int main(int argc, char* argv[], char* env[]) {
 	runFunctionTest("../stack_tests/pop().cpp", argv, env);
 	runFunctionTest("../stack_tests/size().cpp", argv, env);
 	runFunctionTest("../stack_tests/empty().cpp", argv, env);
-	runFunctionTest("../stack_tests/operator==.cpp", argv, env);
-	runFunctionTest("../stack_tests/operator!=.cpp", argv, env);
-	runFunctionTest("../stack_tests/operator<.cpp", argv, env);
-	runFunctionTest("../stack_tests/operator>.cpp", argv, env);
-	runFunctionTest("../stack_tests/operator<=.cpp", argv, env);
-	runFunctionTest("../stack_tests/operator>=.cpp", argv, env);
+	runFunctionTest("../stack_tests/operator ==.cpp", argv, env);
+	runFunctionTest("../stack_tests/operator !=.cpp", argv, env);
+	runFunctionTest("../stack_tests/operator <.cpp", argv, env);
+	runFunctionTest("../stack_tests/operator >.cpp", argv, env);
+	runFunctionTest("../stack_tests/operator <=.cpp", argv, env);
+	runFunctionTest("../stack_tests/operator >=.cpp", argv, env);
+
+	saveResult("stack_res");
+	outputCurrentResult("STACK", _STACK_TEST_NUM);
+
 	return 0;
 }

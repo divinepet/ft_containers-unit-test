@@ -25,7 +25,5 @@ std::vector<int> size_test(_stack<T> stk) {
 
 int main() {
 
-	run_stack_unit_test<int>("push()", size_test, size_test);
-
-	return (0);
+	exit(run_stack_unit_test<int>("push()", size_test, size_test));
 }

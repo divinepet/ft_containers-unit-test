@@ -49,7 +49,5 @@ template <class T, class V>
 
 int main() {
 
-    run_map_unit_test<int, int>("operator[]", operator_sq_test, operator_sq_test);
-
-    return (0);
+    exit(run_map_unit_test<int, int>("operator[]", operator_sq_test, operator_sq_test));
 }

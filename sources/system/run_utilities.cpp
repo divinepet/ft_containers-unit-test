@@ -14,5 +14,8 @@ int main(int argc, char* argv[], char* env[]) {
 	runFunctionTest("../utilities_tests/lexicographical.cpp", argv, env);
 	runFunctionTest("../utilities_tests/iterator_traits.cpp", argv, env);
 
+	saveResult("utilities_res");
+	outputCurrentResult("UTILITIES", _UTILITIES_TEST_NUM);
+
 	return (0);
 }

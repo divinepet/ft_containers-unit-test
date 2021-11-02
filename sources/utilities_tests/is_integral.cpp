@@ -23,5 +23,5 @@ bool is_integral_test_() {
 }
 
 int main() {
-	run_bool_unit_test("is_integral", is_integral_test_);
+	exit(run_bool_unit_test("is_integral", is_integral_test_));
 }
