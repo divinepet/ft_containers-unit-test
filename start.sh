@@ -1,6 +1,6 @@
 #!/bin/bash
 
-trap 'rm -f a.out test1 ;yes | rm -f sources/system/results/*; echo -e "\n"See 📄"\033[1mlogs.txt\033[0m" for more information. "\n""\033[1mWARNING:\033[0m" it will be rewrite next execution' EXIT
+trap 'rm -f a.out test1 ;yes | rm -f results/*; echo -e "\n"See 📄"\033[1mlogs.txt\033[0m" for more information. "\n""\033[1mWARNING:\033[0m" it will be rewrite next execution' EXIT
 echo "" > logs.txt
 yes | rm -f sources/system/results/*
 cd sources/system/
@@ -54,4 +54,4 @@ else
   echo Uknown command. Use --help or -h for command list
 fi
 rm -f a.out test1
-yes | rm -f sources/system/results/*
+yes | rm -f results/*
