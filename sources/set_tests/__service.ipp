@@ -67,3 +67,15 @@ void run_set_unit_test(std::string test_name, std::vector<int> (func1)(std::set<
 	leaks_test(getpid());
 	cout << endl;
 }
+
+template <class T, class C, class A>
+void run_set_allocator_unit_test(std::string test_name, void (func)(_set<T, C, A>)) {
+    time_t t1;
+    time_t t2;
+    _set<T, C, A> my_set;
+
+    printElement(test_name);
+    func(my_set);
+    (_allocator_used) ? printElement("OK") : printElement("FAILED");
+    cout << endl;
+}

@@ -67,3 +67,15 @@ void run_map_unit_test(std::string test_name, std::vector<int> (func1)(std::map<
 	leaks_test(getpid());
 	cout << endl;
 }
+
+template <class T, class V, class C, class A>
+void run_map_allocator_unit_test(std::string test_name, void (func)(_map<T, V, C, A>)) {
+    time_t t1;
+    time_t t2;
+    _map<T, V, C, A> my_map;
+
+    printElement(test_name);
+    func(my_map);
+    (_allocator_used) ? printElement("OK") : printElement("FAILED");
+    cout << endl;
+}

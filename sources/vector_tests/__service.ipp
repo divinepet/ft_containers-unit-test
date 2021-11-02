@@ -20,3 +20,15 @@ void run_vector_unit_test(std::string test_name, std::vector<int> (func1)(std::v
 	leaks_test(getpid());
 	cout << endl;
 }
+
+template <class T, class A>
+void run_vector_allocator_unit_test(std::string test_name, void (func)(_vector<T, A>)) {
+    time_t t1;
+    time_t t2;
+    _vector<T, A> my_vector;
+
+    printElement(test_name);
+    func(my_vector);
+    (_allocator_used) ? printElement("OK") : printElement("FAILED");
+    cout << endl;
+}

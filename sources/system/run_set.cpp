@@ -30,6 +30,7 @@ int main(int argc, char* argv[], char* env[]) {
 	runFunctionTest("../set_tests/upper_bound.cpp", argv, env);
 	runFunctionTest("../set_tests/equal_range.cpp", argv, env);
 	runFunctionTest("../set_tests/key_comp.cpp", argv, env);
+	runFunctionTest("../set_tests/using_allocator.cpp", argv, env);
 	runFunctionTest("../set_tests/operator==.cpp", argv, env);
 	runFunctionTest("../set_tests/operator!=.cpp", argv, env);
 	runFunctionTest("../set_tests/operator<.cpp", argv, env);
