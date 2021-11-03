@@ -1,6 +1,6 @@
 #pragma once
 #include "../system/lib.hpp"
-#include _VECTOR_LIB
+#include VECTOR
 
 template <class T>
 int run_vector_unit_test(std::string test_name, std::vector<int> (func1)(std::vector<T>), std::vector<int> (func2)(_vector<T>)) {
