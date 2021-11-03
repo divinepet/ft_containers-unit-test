@@ -12,6 +12,7 @@ void showAchievment(std::string filename, int output_udelay, void (banner)(int),
     int stream = BASS_StreamCreateFile(false, filename.c_str(), 0L, 0L, 0);
     if (stream != 0)
     {
+	BASS_ChannelSetAttribute(stream, BASS_ATTRIB_VOL, 0.05);
         // play the stream channel
         BASS_ChannelPlay(stream, false);
     }
