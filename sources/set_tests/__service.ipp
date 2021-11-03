@@ -1,6 +1,6 @@
 #pragma once
 #include "../system/lib.hpp"
-#include _SET_LIB
+#include SET
 
 template <class T, class C>
 void fillSet(std::set<T, C> &mp) {
