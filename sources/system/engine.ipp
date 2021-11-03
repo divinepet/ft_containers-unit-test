@@ -45,7 +45,7 @@ void testCompile(int *status, const char* func_filename, char **env) {
     test_args[6] = strdup("-Wextra");
     test_args[7] = strdup("-Werror");
     test_args[8] = NULL;
-	#el
+	#else
     test_args[4] = NULL;
 	#endif
 
