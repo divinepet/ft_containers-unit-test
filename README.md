@@ -27,7 +27,10 @@ if you haven't some class implementation yet, for example <b>Map</b>, you need t
 // #define MAP     "../../../Map.hpp"
 ...
 ```
-and etc. for other.
+and etc. for other. The same with flags. comment this line to turn off them
+```c++
+// #define FLAGS
+```
 ## 📄 start.sh
 you can run tests with a specific container, use flags for this
 ```shell
