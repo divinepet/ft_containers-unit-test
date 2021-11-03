@@ -1,19 +1,22 @@
 #pragma once
 
-/************************************************/
-/*			Change paths to your files			*/
-/*				or comment #include				*/
-/*		if you haven't yet some container		*/
-/************************************************/
+/**************************************************/
+/*			Change paths to your files			  */
+/*				or comment #include				  */
+/*		if you haven't yet some container		  */
+/**************************************************/
 #define VECTOR			"../../../Vector.hpp"
 #define STACK			"../../../Stack.hpp"
 #define MAP			  	"../../../Map.hpp"
 #define SET			  	"../../../Set.hpp"
-#define UTILITIES		"../../../Utils.hpp"
+#define UTILITIES		"../../../Utility.hpp"
 
-/************************************************/
-/*		Change template names of your classes	*/
-/************************************************/
+/* comment this to turn OFF flags (-WWW, -std=98) */
+#define FLAGS
+
+/**************************************************/
+/*		Change template names of your classes	  */
+/**************************************************/
 #define	_vector 			ft::Vector
 #define	_stack	 			ft::Stack
 #define	_map 				ft::Map

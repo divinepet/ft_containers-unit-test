@@ -5,7 +5,7 @@ template <class T>
 std::vector<int> max_size_test(std::set<T> st) {
     std::vector<int> v;
     g_start1 = timer();
-    v.push_back(1);
+    v.push_back((st.size() * 0) + 1);
     g_end1 = timer();
     return v;
 }

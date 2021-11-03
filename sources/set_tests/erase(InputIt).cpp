@@ -6,8 +6,6 @@ std::vector<int> erase_test_3(std::set<T> st) {
     std::vector<int> v;
     for (int i = 0; i < 500000; ++i)
         st.insert(i);
-
-    std::set<int>::iterator it = st.begin();
     g_start1 = timer();
     st.erase(st.begin(), --st.end());
     g_end1 = timer();
@@ -20,8 +18,6 @@ std::vector<int> erase_test_3(_set<T> st) {
     std::vector<int> v;
     for (int i = 0; i < 500000; ++i)
         st.insert(i);
-
-    _set<int>::iterator it = st.begin();
     g_start2 = timer();
     st.erase(st.begin(), --st.end());
     g_end2 = timer();

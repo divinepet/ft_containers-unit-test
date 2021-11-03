@@ -33,14 +33,21 @@ void testCompile(int *status, const char* func_filename, char **env) {
 
     int     fd_log = open("../../logs.txt", O_RDWR | O_CREAT , 0777 | O_APPEND, S_IRUSR | S_IWUSR);
     pid_t   pid;
-    char**  test_args = (char**)malloc(sizeof(char*) * 10);
+    char**  test_args = (char**)malloc(sizeof(char*) * 9);
 
     test_args[0] = strdup(_CXX);
     test_args[1] = strdup("-o");
     test_args[2] = strdup(_EXEC_NAME);
-    test_args[3] = strdup(_CXX_FLAGS);
-    test_args[4] = strdup(func_filename);
-    test_args[5] = NULL;
+    test_args[3] = strdup(func_filename);
+	#if defined(FLAGS)
+    test_args[4] = strdup("-std=c++98");
+    test_args[5] = strdup("-Wall");
+    test_args[6] = strdup("-Wextra");
+    test_args[7] = strdup("-Werror");
+    test_args[8] = NULL;
+	#el
+    test_args[4] = NULL;
+	#endif
 
     pid = fork();
     if (!pid) {

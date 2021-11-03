@@ -10,7 +10,7 @@ std::vector<int> insert_std_test(std::vector<T> vector) {
 	g_start1 = timer();
 	vector.insert(vector.begin(), tmp.begin(), tmp.end());
 	g_end1 = timer();
-	for (int i = 0; i < tmp.size(); ++i) {
+	for (size_t i = 0; i < tmp.size(); ++i) {
 		v.push_back(vector[i]);
 	}
 	v.push_back(vector.size());
@@ -27,7 +27,7 @@ std::vector<int> insert_std_test(_vector<T> vector) {
 	g_start2 = timer();
 	vector.insert(vector.begin(), tmp.begin(), tmp.end());
 	g_end2 = timer();
-	for (int i = 0; i < tmp.size(); ++i) {
+	for (size_t i = 0; i < tmp.size(); ++i) {
 		v.push_back(vector[i]);
 	}
 	v.push_back(vector.size());

@@ -82,8 +82,6 @@ int run_set_unit_test(std::string test_name, std::vector<int> (func1)(std::set<T
 
 template <class T, class C, class A>
 int run_set_allocator_unit_test(std::string test_name, void (func)(_set<T, C, A>)) {
-    time_t t1;
-    time_t t2;
     _set<T, C, A> my_set;
 
     printElement(test_name);
