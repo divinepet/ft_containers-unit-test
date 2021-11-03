@@ -11,9 +11,6 @@
 #define SET			  	"../../../Set.hpp"
 #define UTILITIES		"../../../Utility.hpp"
 
-/* comment this to turn OFF flags (-WWW, -std=98) */
-#define FLAGS
-
 /**************************************************/
 /*		Change template names of your classes	  */
 /**************************************************/
