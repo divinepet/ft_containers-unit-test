@@ -23,7 +23,7 @@ bash start.sh
 ## ⚠️ config.hpp
 if you haven't some class implementation yet, for example <b>Map</b>, you need to <b><i>comment</i></b> this line:
 ```C#
-// #include "../Map.hpp"
+// #define MAP     "../../../Map.hpp"
 ```
 and etc. for other
 ## 📄 start.sh
