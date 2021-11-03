@@ -1,6 +1,6 @@
 #pragma once
 #include "../system/lib.hpp"
-#include _STACK_LIB
+#include STACK
 
 class StackBoolTest {
 public:
