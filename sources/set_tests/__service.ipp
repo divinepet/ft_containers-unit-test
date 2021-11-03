@@ -1,5 +1,6 @@
 #pragma once
 #include "../system/lib.hpp"
+#include _SET_LIB
 
 template <class T, class C>
 void fillSet(std::set<T, C> &mp) {

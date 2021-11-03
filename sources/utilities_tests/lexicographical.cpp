@@ -1,4 +1,5 @@
 #include "../system/system_methods.ipp"
+#include _UTILITIES_LIB
 
 bool lexicographical_test() {
 	std::vector<int> result, result2;

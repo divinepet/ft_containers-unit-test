@@ -1,4 +1,3 @@
-#include "lib.hpp"
 #include "engine.ipp"
 
 int main(int argc, char* argv[], char* env[]) {

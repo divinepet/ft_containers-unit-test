@@ -5,11 +5,11 @@
 /*				or comment #include				*/
 /*		if you haven't yet some container		*/
 /************************************************/
-#include 					"../Vector.hpp"
-#include 					"../Stack.hpp"
-#include 					"../Map.hpp"
-#include 					"../Set.hpp"
-#include 					"../Utility.hpp"
+#define _VECTOR_LIB			"../../../Vector.hpp"
+#define _STACK_LIB			"../../../Stack.hpp"
+#define _MAP_LIB			"../../../Map.hpp"
+#define _SET_LIB			"../../../Set.hpp"
+#define _UTILITIES_LIB		"../../../Utils.hpp"
 
 /************************************************/
 /*		Change template names of your classes	*/

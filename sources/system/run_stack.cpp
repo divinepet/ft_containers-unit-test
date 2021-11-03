@@ -1,4 +1,3 @@
-#include "lib.hpp"
 #include "engine.ipp"
 
 using std::cout;
