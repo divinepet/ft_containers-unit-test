@@ -1,6 +1,6 @@
 #pragma once
 #include "../system/lib.hpp"
-#include _MAP_LIB
+#include MAP
 
 template <class T, class V, class C>
 void fillMap(std::map<T, V, C> &mp) {
