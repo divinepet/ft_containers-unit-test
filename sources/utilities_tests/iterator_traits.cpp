@@ -1,5 +1,6 @@
 #include "../system/system_methods.ipp"
 #include UTILITIES
+#include VECTOR
 
 bool iterator_traits_test() {
 	std::vector<string> res;
