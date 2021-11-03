@@ -99,6 +99,7 @@ void runNonCompilable(std::string func_filename, char** argv, char** env) {
     std::string tmp = func_filename.substr(func_filename.find_last_of('/') + 1);
     std::string output = tmp.erase(tmp.length() - 4);
 
+    int fd_log;
     char buffer[256];
     std::string result;
     std::string cxx = _CXX;
@@ -121,6 +122,11 @@ void runNonCompilable(std::string func_filename, char** argv, char** env) {
         _test_passed_cnt++;
     }
     else {
+        fd_log = open("../../logs.txt", O_RDWR | O_CREAT , 0777 | O_APPEND, S_IRUSR | S_IWUSR);
+        if (!fd_log)
+            return ;
+        write(fd_log, result.c_str(), result.length());
+        close(fd_log);
         printElement("FAILED");
         std::cout << "" << std::endl;
     }
