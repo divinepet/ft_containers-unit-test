@@ -2,7 +2,7 @@
 
 ![screenshot](https://raw.githubusercontent.com/divinepet/ft_containers-unit-test/main/sources/system/credits/screenshot.gif)
 
-## About
+# About
 <span>ft containers unit test</span> is a complete testing for project of school 21/ecole 42 and allowing you test your containers: <b>Vector</b>, <b>Stack</b>, <b>Map</b>, <b>Set</b> and <b>Utilities</b> in <b>ft</b> namespace.</br>
 This test checks 90% of subject and checklist requires: <b>using std allocator, iterator traits, benchmark, leaks, segfaults, timeouts</b> etc. But keep in mind that test doesn't check something you don't need to implement and was written by students, so im waiting for your bugs or suggestions for improving
 
