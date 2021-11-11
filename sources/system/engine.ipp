@@ -123,7 +123,7 @@ void runNonCompilable(std::string func_filename, char** argv, char** env) {
 //    std::cout << result << std::endl;
     printElement(output);
     if (result.find("1 error generated") != std::string::npos
-    && result.find("error: cannot assign to non-static data member 'first' with const-qualified type 'const int'") != std::string::npos) {
+    && result.find("error: cannot assign to non-static data member 'first' with const-qualified type") != std::string::npos) {
         printElement("OK");
         std::cout << "" << std::endl;
         _test_passed_cnt++;
