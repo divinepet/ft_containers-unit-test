@@ -27,7 +27,7 @@ if you haven't some class implementation yet, for example <b>Map</b>, you need t
 // #define MAP     "../../../Map.hpp"
 ...
 ```
-and etc. for other. The same with flags - uncomment this line to turn on them
+and etc. for other. The same with flags - uncomment this line to enable them
 ```c++
 #define FLAGS
 ```
