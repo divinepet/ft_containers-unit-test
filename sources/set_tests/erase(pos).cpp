@@ -27,6 +27,7 @@ std::vector<int> erase_test_2(std::set<T> st) {
     typename std::set<T>::iterator ittest = st2.begin();
     for (int i = 0; i < 2; ++i) ittest++;
     st2.erase(ittest);
+    ittest = st2.begin();
     for (int i = 0; i < 5; ++i) ittest++;
     st2.erase(ittest);
     typename std::set<T>::iterator it3 = st2.begin();
@@ -62,6 +63,7 @@ std::vector<int> erase_test_2(_set<T> st) {
     typename _set<T>::iterator ittest = st2.begin();
     for (int i = 0; i < 2; ++i) ittest++;
     st2.erase(ittest);
+    ittest = st2.begin();
     for (int i = 0; i < 5; ++i) ittest++;
     st2.erase(ittest);
     typename _set<T>::iterator it3 = st2.begin();
