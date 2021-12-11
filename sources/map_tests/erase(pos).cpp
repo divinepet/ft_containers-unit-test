@@ -27,6 +27,7 @@ std::vector<int> erase_test_2(std::map<T, V> mp) {
     typename std::map<T, V>::iterator ittest = mp2.begin();
     for (int i = 0; i < 2; ++i) ittest++;
     mp2.erase(ittest);
+    ittest = mp2.begin();
     for (int i = 0; i < 5; ++i) ittest++;
     mp2.erase(ittest);
     typename std::map<T, V>::iterator it3 = mp2.begin();
@@ -63,6 +64,7 @@ std::vector<int> erase_test_2(_map<T, V> mp) {
     typename _map<T, V>::iterator ittest = mp2.begin();
     for (int i = 0; i < 2; ++i) ittest++;
     mp2.erase(ittest);
+    ittest = mp2.begin();
     for (int i = 0; i < 5; ++i) ittest++;
     mp2.erase(ittest);
     typename _map<T, V>::iterator it3 = mp2.begin();
