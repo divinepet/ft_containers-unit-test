@@ -32,7 +32,7 @@ and etc. for other. The same with flags - uncomment this line to enable them
 #define FLAGS
 ```
 ## 📄 start.sh
-you can run tests with a specific container, use flags for this
+You can run tests with a specific container, use flags for this
 ```shell
 ./start.sh -v # for vector
 ./start.sh -u # for utilities
@@ -40,7 +40,10 @@ you can run tests with a specific container, use flags for this
 ./start.sh -m # for map
 ./start.sh -s # for set
 ./start.sh -h # help with commands
+
+Use the "-fast" flag to run the test in simplified mode - the amount of data processed by each container is reduced to speed up its execution.
 ```
+
 # Results
 
 ![](https://via.placeholder.com/15/f00/000000?text=+) <b>NOT COMPILED</b> means that method compiles with errors, also probably some template name in ```config.hpp``` is incorrect</br>
