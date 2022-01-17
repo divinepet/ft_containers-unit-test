@@ -4,8 +4,8 @@
 template <typename T>
 std::vector<int> swap_test(std::vector<T> vector) {
     std::vector<int> v;
-    vector.assign(11000000, 11);
-    std::vector<int> tmp(5000000, 5), tmp2(10000000, 10), tmp3(15000000, 15), tmp4(30000000, 30);
+    vector.assign(1100 * _ratio, 11);
+    std::vector<int> tmp(500 * _ratio, 5), tmp2(1000 * _ratio, 10), tmp3(1500 * _ratio, 15), tmp4(3000 * _ratio, 30);
     g_start1 = timer();
     v.push_back(vector[2]);
     v.push_back(vector.size());
@@ -37,8 +37,8 @@ std::vector<int> swap_test(std::vector<T> vector) {
 template <typename T>
 std::vector<int> swap_test(_vector<T> vector) {
     std::vector<int> v;
-    vector.assign(11000000, 11);
-    _vector<int> tmp(5000000, 5), tmp2(10000000, 10), tmp3(15000000, 15), tmp4(30000000, 30);
+    vector.assign(1100 * _ratio, 11);
+    _vector<int> tmp(500 * _ratio, 5), tmp2(1000 * _ratio, 10), tmp3(1500 * _ratio, 15), tmp4(3000 * _ratio, 30);
     g_start2 = timer();
     v.push_back(vector[2]);
     v.push_back(vector.size());

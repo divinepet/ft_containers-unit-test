@@ -5,10 +5,10 @@ template <class T, class V>
 std::vector<int> swap_test(std::map<T, V> mp) {
     std::vector<int> v;
     g_start1 = g_end1 = timer();
-    for (int i = 0, j = 0; i < 250000; ++i, ++j)
+    for (int i = 0, j = 0; i < 25 * _ratio; ++i, ++j)
         mp.insert(std::make_pair(i, j));
     std::map<T, V> mp2;
-    for (int i = 250000, j = 0; i < 350000; ++i, --j)
+    for (int i = 25 * _ratio, j = 0; i < 35 * _ratio; ++i, --j)
         mp.insert(std::make_pair(i, j));
     long *adr1 = reinterpret_cast<long *>(&mp);
     long *adr2 = reinterpret_cast<long *>(&mp2);
@@ -34,10 +34,10 @@ template <class T, class V>
 std::vector<int> swap_test(_map<T, V> mp) {
     std::vector<int> v;
     g_start2 = g_end2 = timer();
-    for (int i = 0, j = 0; i < 250000; ++i, ++j)
+    for (int i = 0, j = 0; i < 25 * _ratio; ++i, ++j)
         mp.insert(_make_pair(i, j));
     _map<T, V> mp2;
-    for (int i = 250000, j = 0; i < 350000; ++i, --j)
+    for (int i = 25 * _ratio, j = 0; i < 35 * _ratio; ++i, --j)
         mp.insert(_make_pair(i, j));
     long *adr1 = reinterpret_cast<long *>(&mp);
     long *adr2 = reinterpret_cast<long *>(&mp2);

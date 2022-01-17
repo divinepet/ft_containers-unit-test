@@ -5,7 +5,7 @@ template <typename T>
 std::vector<int> constructor_std_test(std::vector<T> vector) {
 	std::vector<int> v;
 	vector.assign(3, 3);
-	std::vector<int> tmp(10000000, 4);
+	std::vector<int> tmp(1000 * _ratio, 4);
 	g_start1 = timer();
 	std::vector<int> tmp2(tmp.begin(), tmp.end());
 	g_end1 = timer();
@@ -21,7 +21,7 @@ std::vector<int> constructor_std_test(_vector<T> vecto) {
 	(void)vecto;
 	std::vector<int> v;
 	_vector<T> vector(3, 3);
-	std::vector<int> tmp(10000000, 4);
+	std::vector<int> tmp(1000 * _ratio, 4);
 	g_start2 = timer();
 	_vector<int> tmp2(tmp.begin(), tmp.end());
 	g_end2 = timer();

@@ -4,15 +4,15 @@
 template <class T>
 std::vector<int> find_test(std::set<T> st) {
     std::vector<int> v;
-    for (int i = -750000; i < 750000; ++i) {
+    for (int i = -75 * _ratio; i < 75 * _ratio; ++i) {
         st.insert(i);
     }
     g_start1 = timer();
-    typename std::set<T>::iterator it = st.find(345678);
+    typename std::set<T>::iterator it = st.find(34 * _ratio);
     g_end1 = timer();
     v.push_back(*it);
 
-    it = st.find(-345678);
+    it = st.find(-34 * _ratio);
     v.push_back(*it);
 
     it = st.find(-987654321);
@@ -24,15 +24,15 @@ std::vector<int> find_test(std::set<T> st) {
 template <class T>
 std::vector<int> find_test(_set<T> st) {
     std::vector<int> v;
-    for (int i = -750000; i < 750000; ++i) {
+    for (int i = -75 * _ratio; i < 75 * _ratio; ++i) {
         st.insert(i);
     }
     g_start2 = timer();
-    typename _set<T>::iterator it = st.find(345678);
+    typename _set<T>::iterator it = st.find(34 * _ratio);
     g_end2 = timer();
     v.push_back(*it);
 
-    it = st.find(-345678);
+    it = st.find(-34 * _ratio);
     v.push_back(*it);
 
     it = st.find(-987654321);

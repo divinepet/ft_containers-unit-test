@@ -31,11 +31,11 @@ std::vector<int> lower_bound_test(std::map<T, V> mp) {
         v.push_back(it->first);
     }
     std::map<int, int> mp3;
-    for (int i = 0, j = 0; i < 500000; ++i, ++j) {
+    for (int i = 0, j = 0; i < 50 * _ratio; ++i, ++j) {
         mp3.insert(std::make_pair(i, j));
     }
     g_start1 = timer();
-    mp3.lower_bound(490000);
+    mp3.lower_bound(49 * _ratio);
     g_end1 = timer();
     return v;
 }
@@ -70,11 +70,11 @@ std::vector<int> lower_bound_test(_map<T, V> mp) {
         v.push_back(it->first);
     }
     _map<int, int> mp3;
-    for (int i = 0, j = 0; i < 500000; ++i, ++j) {
+    for (int i = 0, j = 0; i < 50 * _ratio; ++i, ++j) {
         mp3.insert(_make_pair(i, j));
     }
     g_start2 = timer();
-    mp3.lower_bound(490000);
+    mp3.lower_bound(49 *_ratio);
     g_end2 = timer();
     return v;
 }

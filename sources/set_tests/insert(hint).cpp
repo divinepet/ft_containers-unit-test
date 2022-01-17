@@ -6,7 +6,7 @@ std::vector<int> insert_test_3(std::set<T> st) {
     std::vector<int> v;
     typename std::set<T>::iterator it = st.end();
     g_start1 = timer();
-    for (int i = 0; i < 500000; ++i) {
+    for (int i = 0; i < 50 * _ratio; ++i) {
         st.insert(it, i);
     }
     g_end1 = timer();
@@ -22,7 +22,7 @@ std::vector<int> insert_test_3(_set<T> st) {
     std::vector<int> v;
     typename _set<T>::iterator it = st.end();
     g_start2 = timer();
-    for (int i = 0; i < 500000; ++i) {
+    for (int i = 0; i < 50 * _ratio; ++i) {
         st.insert(it, i);
     }
     g_end2 = timer();

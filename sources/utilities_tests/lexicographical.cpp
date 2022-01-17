@@ -5,13 +5,13 @@ bool lexicographical_test() {
 	std::vector<int> result, result2;
 	std::vector<char> v1, v2;
 	std::vector<char> b1, b2;
-	v1.assign(50000000, 'f');
+	v1.assign(5000 * _ratio, 'f');
 	v1.push_back('e');
-	v2.assign(50000000, 'f');
+	v2.assign(5000 * _ratio, 'f');
 	v2.push_back('e');
-	b1.assign(50000000, 'f');
+	b1.assign(5000 * _ratio, 'f');
 	b1.push_back('e');
-	b2.assign(50000000, 'f');
+	b2.assign(5000 * _ratio, 'f');
 	b2.push_back('e');
 	g_start1 = timer();
 	result.push_back(std::lexicographical_compare(v1.begin(), v1.end(), v2.begin(), v2.end()));

@@ -31,7 +31,7 @@ template <class T, class V>
         v.push_back(it->first);
     }
     std::map<int, int> mp3;
-    for (int i = 0, j = 0; i < 500000; ++i, ++j) {
+    for (int i = 0, j = 0; i < 50 * _ratio; ++i, ++j) {
         mp3.insert(std::make_pair(i, j));
     }
     std::map<int, int> mp4;
@@ -39,7 +39,7 @@ template <class T, class V>
     mp.insert(std::make_pair(-20, 20));
     v.push_back((--mp.upper_bound(0))->first);
     g_start1 = timer();
-    mp3.upper_bound(490000);
+    mp3.upper_bound(49 * _ratio);
     g_end1 = timer();
     return v;
 }
@@ -74,7 +74,7 @@ template <class T, class V>
         v.push_back(it->first);
     }
     _map<int, int> mp3;
-    for (int i = 0, j = 0; i < 500000; ++i, ++j) {
+    for (int i = 0, j = 0; i < 50 * _ratio; ++i, ++j) {
         mp3.insert(_make_pair(i, j));
     }
     _map<int, int> mp4;
@@ -82,7 +82,7 @@ template <class T, class V>
     mp.insert(_make_pair(-20, 20));
     v.push_back((--mp.upper_bound(0))->first);
     g_start2 = timer();
-    mp3.upper_bound(490000);
+    mp3.upper_bound(49 * _ratio);
     g_end2 = timer();
     return v;
 }

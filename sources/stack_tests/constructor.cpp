@@ -5,9 +5,9 @@ template <class T>
 std::vector<int> constructor_test(std::stack<T> stk) {
 	std::vector<int> v;
 	std::deque<int> deque;
-	for (int i = 0; i < 1000000; ++i)
+	for (int i = 0; i < 100 * _ratio; ++i)
 		deque.push_back(i);
-	for (int i = 1000000; i < 2000000; ++i)
+	for (int i = 100 * _ratio; i < 200 * _ratio; ++i)
 		stk.push(i);
 	g_start1 = timer();
 	std::stack<int> stack(deque);
@@ -30,9 +30,9 @@ template <class T>
 std::vector<int> constructor_test(_stack<T> stk) {
 	std::vector<int> v;
 	_vector<int> deque;
-	for (int i = 0; i < 1000000; ++i)
+	for (int i = 0; i < 100 * _ratio; ++i)
 		deque.push_back(i);
-	for (int i = 1000000; i < 2000000; ++i)
+	for (int i = 100 * _ratio; i < 200 * _ratio; ++i)
 		stk.push(i);
 	g_start2 = timer();
 	_stack<int> stack(deque);

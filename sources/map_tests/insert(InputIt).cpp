@@ -4,7 +4,7 @@
 template <class T, class V>
 std::vector<int> insert_test_2(std::map<T, V> mp) {
     std::vector<int> v;
-    for (int i = 0, j = 0; i < 500000; ++i, ++j)
+    for (int i = 0, j = 0; i < 50 * _ratio; ++i, ++j)
         mp.insert(std::make_pair(i, j));
     std::map<int, int> mp2;
     g_start1 = timer();
@@ -21,7 +21,7 @@ std::vector<int> insert_test_2(std::map<T, V> mp) {
 template <class T, class V>
 std::vector<int> insert_test_2(_map<T, V> mp) {
     std::vector<int> v;
-    for (int i = 0, j = 0; i < 500000; ++i, ++j)
+    for (int i = 0, j = 0; i < 50 * _ratio; ++i, ++j)
         mp.insert(_make_pair(i, j));
     _map<int, int> mp2;
     g_start2 = timer();

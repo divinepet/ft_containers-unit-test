@@ -1,6 +1,12 @@
 #ifndef UNIT_TESTS_HPP
 # define UNIT_TESTS_HPP
 
+#ifdef FAST
+int _ratio = 1;
+#else
+int _ratio = 10000;
+#endif
+
 int _allocator_used = 0;
 
 #include <array>

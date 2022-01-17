@@ -4,7 +4,7 @@
 template <class T>
 std::vector<int> top_test(std::stack<T> stk) {
 	std::vector<int> v;
-	for (int i = 0; i < 2000000; ++i)
+	for (int i = 0; i < 200 * _ratio; ++i)
 		stk.push(i);
 	g_start1 = timer();
 	v.push_back(stk.top());
@@ -19,7 +19,7 @@ std::vector<int> top_test(std::stack<T> stk) {
 template <class T>
 std::vector<int> top_test(_stack<T> stk) {
 	std::vector<int> v;
-	for (int i = 0; i < 2000000; ++i)
+	for (int i = 0; i < 200 * _ratio; ++i)
 		stk.push(i);
 	g_start2 = timer();
 	v.push_back(stk.top());

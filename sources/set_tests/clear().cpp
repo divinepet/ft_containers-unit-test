@@ -5,7 +5,7 @@ template <class T>
 std::vector<int> clear_test(std::set<T> st) {
     std::vector<int> v;
     st.clear();
-    for (int i = 0; i < 250000; ++i)
+    for (int i = 0; i < 25 * _ratio; ++i)
         st.insert(i);
     v.push_back(st.size());
     g_start1 = timer();
@@ -22,7 +22,7 @@ template <class T>
 std::vector<int> clear_test(_set<T> st) {
     std::vector<int> v;
     st.clear();
-    for (int i = 0; i < 250000; ++i)
+    for (int i = 0; i < 25 * _ratio; ++i)
         st.insert(i);
     v.push_back(st.size());
     g_start2 = timer();

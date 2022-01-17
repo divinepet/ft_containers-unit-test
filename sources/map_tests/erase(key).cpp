@@ -5,7 +5,7 @@ template <class T, class V>
 std::vector<int> erase_test_1(std::map<T, V> mp) {
     std::vector<int> v;
     v.push_back(mp.erase(3));
-    for (int i = 0, j = 0; i < 300000 ; ++i, ++j)
+    for (int i = 0, j = 0; i < 30 * _ratio; ++i, ++j)
         mp.insert(std::make_pair(i, j));
     typename std::map<T, V>::iterator it = mp.begin();
     v.push_back(it->first);
@@ -22,7 +22,7 @@ std::vector<int> erase_test_1(std::map<T, V> mp) {
     g_end1 = timer();
     typename std::map<T, V>::iterator it2 = mp.end();
     it2--;
-    v.push_back(mp.erase(299999));
+    v.push_back(mp.erase(30 * _ratio - 1));
     v.push_back(mp.size());
     std::map<int, int> mp2;
     for (int i = 0, j = 0; i < 10 ; ++i, ++j)
@@ -41,7 +41,7 @@ template <class T, class V>
 std::vector<int> erase_test_1(_map<T, V> mp) {
     std::vector<int> v;
     v.push_back(mp.erase(3));
-    for (int i = 0, j = 0; i < 300000 ; ++i, ++j)
+    for (int i = 0, j = 0; i < 30 * _ratio; ++i, ++j)
         mp.insert(_make_pair(i, j));
     typename _map<T, V>::iterator it = mp.begin();
     v.push_back(it->first);
@@ -58,7 +58,7 @@ std::vector<int> erase_test_1(_map<T, V> mp) {
     g_end2 = timer();
     typename _map<T, V>::iterator it2 = mp.end();
     it2--;
-    v.push_back(mp.erase(299999));
+    v.push_back(mp.erase(30 * _ratio - 1));
     v.push_back(mp.size());
     _map<int, int> mp2;
     for (int i = 0, j = 0; i < 10 ; ++i, ++j)

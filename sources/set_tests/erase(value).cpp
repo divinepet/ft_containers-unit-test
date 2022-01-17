@@ -5,7 +5,7 @@ template <class T>
 std::vector<int> erase_test_1(std::set<T> st) {
     std::vector<int> v;
     v.push_back(st.erase(3));
-    for (int i = 0; i < 300000 ; ++i)
+    for (int i = 0; i < 30 * _ratio; ++i)
         st.insert(i);
     typename std::set<T>::iterator it = st.begin();
     v.push_back(*it);
@@ -20,7 +20,7 @@ std::vector<int> erase_test_1(std::set<T> st) {
     g_end1 = timer();
     typename std::set<T>::iterator it2 = st.end();
     it2--;
-    v.push_back(st.erase(299999));
+    v.push_back(st.erase(30 * _ratio - 1));
     v.push_back(st.size());
     std::set<int> st2;
     for (int i = 0; i < 10 ; ++i)
@@ -38,7 +38,7 @@ template <class T>
 std::vector<int> erase_test_1(_set<T> st) {
     std::vector<int> v;
     v.push_back(st.erase(3));
-    for (int i = 0; i < 300000 ; ++i)
+    for (int i = 0; i < 30 * _ratio; ++i)
         st.insert(i);
     typename _set<T>::iterator it = st.begin();
     v.push_back(*it);
@@ -53,7 +53,7 @@ std::vector<int> erase_test_1(_set<T> st) {
     g_end2 = timer();
     typename _set<T>::iterator it2 = st.end();
     it2--;
-    v.push_back(st.erase(299999));
+    v.push_back(st.erase(30 * _ratio - 1));
     v.push_back(st.size());
     _set<int> st2;
     for (int i = 0; i < 10 ; ++i)

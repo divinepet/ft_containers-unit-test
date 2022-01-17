@@ -20,7 +20,7 @@ std::vector<int> insert_test(std::map<T, V> mp) {
     v.push_back(pair2.first->second);
     v.push_back(pair2.second);
     g_start1 = timer();
-    for (int i = 0, j = 0; i < 500000; ++i, ++j) {
+    for (int i = 0, j = 0; i < 50 * _ratio; ++i, ++j) {
         mp.insert(std::make_pair(i, j));
     }
     g_end1 = timer();
@@ -52,7 +52,7 @@ std::vector<int> insert_test(_map<T, V> mp) {
     v.push_back(pair2.first->second);
     v.push_back(pair2.second);
     g_start2 = timer();
-    for (int i = 0, j = 0; i < 500000; ++i, ++j) {
+    for (int i = 0, j = 0; i < 50 * _ratio; ++i, ++j) {
         mp.insert(_make_pair(i, j));
     }
     g_end2 = timer();

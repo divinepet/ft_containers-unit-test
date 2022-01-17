@@ -31,11 +31,11 @@ std::vector<int> lower_bound_test(std::set<T> st) {
         v.push_back(*it);
     }
     std::set<int> st3;
-    for (int i = 0; i < 500000; ++i) {
+    for (int i = 0; i < 50 * _ratio; ++i) {
         st3.insert(i);
     }
     g_start1 = timer();
-    st3.lower_bound(490000);
+    st3.lower_bound(49 * _ratio);
     g_end1 = timer();
     return v;
 }
@@ -70,11 +70,11 @@ std::vector<int> lower_bound_test(_set<T> st) {
         v.push_back(*it);
     }
     _set<int> st3;
-    for (int i = 0; i < 500000; ++i) {
+    for (int i = 0; i < 50 * _ratio; ++i) {
         st3.insert(i);
     }
     g_start2 = timer();
-    st3.lower_bound(490000);
+    st3.lower_bound(49 * _ratio);
     g_end2 = timer();
     return v;
 }

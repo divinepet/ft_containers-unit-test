@@ -5,10 +5,10 @@ template <class T>
 std::vector<int> swap_test(std::set<T> st) {
     std::vector<int> v;
     g_start1 = g_end1 = timer();
-    for (int i = 0; i < 250000; ++i)
+    for (int i = 0; i < 25 * _ratio; ++i)
         st.insert(i);
     std::set<T> st2;
-    for (int i = 250000; i < 350000; ++i)
+    for (int i = 25 * _ratio; i < 35 * _ratio; ++i)
         st.insert(i);
     long *adr1 = reinterpret_cast<long *>(&st);
     long *adr2 = reinterpret_cast<long *>(&st2);
@@ -32,10 +32,10 @@ template <class T>
 std::vector<int> swap_test(_set<T> st) {
     std::vector<int> v;
     g_start2 = g_end2 = timer();
-    for (int i = 0; i < 250000; ++i)
+    for (int i = 0; i < 25 * _ratio; ++i)
         st.insert(i);
     _set<T> st2;
-    for (int i = 250000; i < 350000; ++i)
+    for (int i = 25 * _ratio; i < 35 * _ratio; ++i)
         st.insert(i);
     long *adr1 = reinterpret_cast<long *>(&st);
     long *adr2 = reinterpret_cast<long *>(&st2);

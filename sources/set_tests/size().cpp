@@ -4,7 +4,7 @@
 template <class T>
 std::vector<int> size_test(std::set<T> st) {
     std::vector<int> v;
-    for (int i = 0; i < 100000; ++i)
+    for (int i = 0; i < 100 * _ratio; ++i)
         st.insert(i);
     g_start1 = timer();
     v.push_back(st.size());
@@ -18,7 +18,7 @@ std::vector<int> size_test(std::set<T> st) {
 template <class T>
 std::vector<int> size_test(_set<T> st) {
     std::vector<int> v;
-    for (int i = 0; i < 100000; ++i)
+    for (int i = 0; i < 100 * _ratio; ++i)
         st.insert(i);
     g_start2 = timer();
     v.push_back(st.size());

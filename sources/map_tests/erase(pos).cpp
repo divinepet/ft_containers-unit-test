@@ -4,7 +4,7 @@
 template <class T, class V>
 std::vector<int> erase_test_2(std::map<T, V> mp) {
     std::vector<int> v;
-    for (int i = 0, j = 0; i < 300000 ; ++i, ++j)
+    for (int i = 0, j = 0; i < 30 * _ratio; ++i, ++j)
         mp.insert(std::make_pair(i, j));
     typename std::map<T, V>::iterator it = mp.begin();
     v.push_back(it->first);
@@ -41,7 +41,7 @@ std::vector<int> erase_test_2(std::map<T, V> mp) {
 template <class T, class V>
 std::vector<int> erase_test_2(_map<T, V> mp) {
     std::vector<int> v;
-    for (int i = 0, j = 0; i < 300000 ; ++i, ++j)
+    for (int i = 0, j = 0; i < 30 * _ratio; ++i, ++j)
         mp.insert(_make_pair(i, j));
     typename _map<T, V>::iterator it = mp.begin();
     v.push_back(it->first);

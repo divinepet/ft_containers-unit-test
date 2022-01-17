@@ -5,7 +5,7 @@ template <typename T>
 std::vector<int> push_back_test(std::vector<T> vector) {
     std::vector<int> v;
     g_start1 = timer();
-    for (int i = 0; i < 55000000; ++i)
+    for (int i = 0; i < 5500 * _ratio; ++i)
         vector.push_back(i);
     g_end1 = timer();
     v.push_back(vector.size());
@@ -17,7 +17,7 @@ template <typename T>
 std::vector<int> push_back_test(_vector<T> vector) {
     std::vector<int> v;
     g_start2 = timer();
-    for (int i = 0; i < 55000000; ++i) {
+    for (int i = 0; i < 5500 * _ratio; ++i) {
         vector.push_back(i);
     }
     g_end2 = timer();

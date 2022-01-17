@@ -4,42 +4,49 @@ trap 'rm -f a.out test1 ;yes | rm -f results/*; echo -e "\n"See 📄 "\033[1mlog
 echo "" > logs.txt
 yes | rm -f sources/system/results/*
 cd sources/system/
+fast_flag=""
+
+if [[ $1 = -fast || $2 = -fast ]]
+then
+fast_flag="-DFAST"
+fi
+
 if [[ $1 = -m || $1 = --map ]]
 then
   cat credits/header
-  clang++ run_map.cpp && ./a.out
+  clang++ $fast_flag run_map.cpp && ./a.out
 elif [[ $1 = -v || $1 = --vector ]]
 then
   cat credits/header
-  clang++ run_vector.cpp && ./a.out
+  clang++ $fast_flag run_vector.cpp && ./a.out
 elif [[ $1 = -s || $1 = --set ]]
 then
   cat credits/header
-  clang++ run_set.cpp && ./a.out
+  clang++ $fast_flag run_set.cpp && ./a.out
 elif [[ $1 = -u || $1 = --utils ]]
 then
   cat credits/header
-  clang++ run_utilities.cpp && ./a.out
+  clang++ $fast_flag run_utilities.cpp && ./a.out
 elif [[ $1 = -st || $1 = --stack ]]
 then
   cat credits/header
-  clang++ run_stack.cpp && ./a.out
+  clang++ $fast_flag run_stack.cpp && ./a.out
 elif [[ $1 = '' ]]
 then
   cat credits/header
-  clang++ run_vector.cpp && ./a.out
-  clang++ run_utilities.cpp && ./a.out
-  clang++ run_stack.cpp && ./a.out
-  clang++ run_map.cpp && ./a.out
+  clang++ $fast_flag run_vector.cpp && ./a.out
+  clang++ $fast_flag run_utilities.cpp && ./a.out
+  clang++ $fast_flag run_stack.cpp && ./a.out
+  clang++ $fast_flag run_map.cpp && ./a.out
   clang++ libbass.dylib -Ibass24 -Lbass24 check_results.cpp && ./a.out
 elif [[ $1 = -b || $1 = --bonus ]]
 then
   cat credits/header
-  clang++ run_vector.cpp && ./a.out
-  clang++ run_utilities.cpp && ./a.out
-  clang++ run_stack.cpp && ./a.out
-  clang++ run_map.cpp && ./a.out
-  clang++ run_set.cpp && ./a.out
+  clang++ $fast_flag run_vector.cpp && ./a.out
+  clang++ $fast_flag run_utilities.cpp && ./a.out
+  clang++ $fast_flag run_stack.cpp && ./a.out
+  clang++ $fast_flag run_map.cpp && ./a.out
+  clang++ $fast_flag run_set.cpp && ./a.out
   clang++ libbass.dylib -Ibass24 -Lbass24 check_results.cpp && ./a.out
 elif [[ $1 = -h || $1 = --help ]]
 then

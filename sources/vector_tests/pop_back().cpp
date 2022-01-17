@@ -4,7 +4,7 @@
 template <typename T>
 std::vector<int> pop_back_test(std::vector<T> vector) {
     std::vector<int> v;
-    vector.assign(99000000, 1);
+    vector.assign(9900 * _ratio, 1);
     g_start1 = timer();
     vector.pop_back();
     g_end1 = timer();
@@ -17,7 +17,7 @@ std::vector<int> pop_back_test(std::vector<T> vector) {
 template <typename T>
 std::vector<int> pop_back_test(_vector<T> vector) {
     std::vector<int> v;
-    vector.assign(99000000, 1);
+    vector.assign(9900 * _ratio, 1);
     g_start2 = timer();
     vector.pop_back();
     g_end2 = timer();

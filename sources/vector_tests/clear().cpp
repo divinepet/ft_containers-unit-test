@@ -4,7 +4,7 @@
 template <typename T>
 std::vector<int> clear_test(std::vector<T> vector) {
     std::vector<int> v;
-    vector.assign(50000000, 1);
+    vector.assign(5000 * _ratio, 1);
     g_start1 = timer();
     vector.clear();
     g_end1 = timer();
@@ -16,7 +16,7 @@ std::vector<int> clear_test(std::vector<T> vector) {
 template <typename T>
 std::vector<int> clear_test(_vector<T> vector) {
     std::vector<int> v;
-    vector.assign(50000000, 1);
+    vector.assign(5000 * _ratio, 1);
     g_start2 = timer();
     vector.clear();
     g_end2 = timer();

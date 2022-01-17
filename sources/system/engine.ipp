@@ -44,9 +44,19 @@ void testCompile(int *status, const char* func_filename, char **env) {
     test_args[5] = strdup("-Wall");
     test_args[6] = strdup("-Wextra");
     test_args[7] = strdup("-Werror");
+    #if defined(FAST)
+    test_args[8] = strdup("-DFAST");
+    test_args[9] = NULL;
+    #else
     test_args[8] = NULL;
+    #endif
 	#else
+    #if defined(FAST)
+    test_args[4] = strdup("-DFAST");
+    test_args[5] = NULL;
+    #else
     test_args[4] = NULL;
+    #endif
 	#endif
 
     pid = fork();

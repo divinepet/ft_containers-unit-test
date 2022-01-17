@@ -17,7 +17,7 @@ std::vector<int> insert_test(std::set<T> st) {
     v.push_back(*(pair2.first));
     v.push_back(pair2.second);
     g_start1 = timer();
-    for (int i = 0; i < 500000; ++i) {
+    for (int i = 0; i < 50 * _ratio; ++i) {
         st.insert(i);
     }
     g_end1 = timer();
@@ -45,7 +45,7 @@ std::vector<int> insert_test(_set<T> st) {
     v.push_back(*(pair2.first));
     v.push_back(pair2.second);
     g_start2 = timer();
-    for (int i = 0; i < 500000; ++i) {
+    for (int i = 0; i < 50 * _ratio; ++i) {
         st.insert(i);
     }
     g_end2 = timer();

@@ -4,16 +4,16 @@
 template <typename T>
 std::vector<int> resize_test(std::vector<T> vector) {
     std::vector<int> v;
-    vector.assign(99000000, 1);
+    vector.assign(9900 * _ratio, 1);
     g_start1 = timer();
-    vector.resize(50000000);
-    vector.reserve(50000000);
+    vector.resize(5000 * _ratio);
+    vector.reserve(5000 * _ratio);
     v.push_back(vector.size());
     v.push_back(vector.capacity());
-    vector.resize(70000000);
+    vector.resize(7000 * _ratio);
     v.push_back(vector.size());
     v.push_back(vector.capacity());
-    vector.resize(153000000, T());
+    vector.resize(15300 * _ratio, T());
     v.push_back(vector.size());
     v.push_back(vector.capacity());
     v.push_back(vector[65]);
@@ -24,16 +24,16 @@ std::vector<int> resize_test(std::vector<T> vector) {
 template <typename T>
 std::vector<int> resize_test(_vector<T> vector) {
     std::vector<int> v;
-    vector.assign(99000000, 1);
+    vector.assign(9900 * _ratio, 1);
     g_start2 = timer();
-    vector.resize(50000000);
-    vector.reserve(50000000);
+    vector.resize(5000 * _ratio);
+    vector.reserve(5000 * _ratio);
     v.push_back(vector.size());
     v.push_back(vector.capacity());
-    vector.resize(70000000);
+    vector.resize(7000 * _ratio);
     v.push_back(vector.size());
     v.push_back(vector.capacity());
-    vector.resize(153000000, T());
+    vector.resize(15300 * _ratio, T());
     v.push_back(vector.size());
     v.push_back(vector.capacity());
     v.push_back(vector[65]);
