@@ -41,7 +41,7 @@ You can run tests with a specific container, use flags for this
 ./start.sh -s # for set
 ./start.sh -h # help with commands
 ```
-Use the "-fast" flag to run the test in simplified mode - the amount of data processed by each container is reduced to speed up its execution.
+Use the <b>-fast</b> flag to run the test in simplified mode - the amount of data processed by each container is reduced to speed up its execution.
 
 # Results
 
