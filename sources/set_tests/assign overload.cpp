@@ -4,7 +4,7 @@
 template <class T>
 std::vector<int> assign_overload_test(std::set<T> st) {
     std::vector<int> v;
-    for (int i = 0; i < 20 ; _ratio ++i)
+    for (int i = 0; i < 20 * _ratio; ++i)
         st.insert(i);
     std::set<T> st2;
     for (int i = 20 * _ratio; i < 40 * _ratio; ++i)
