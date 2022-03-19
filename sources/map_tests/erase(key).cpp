@@ -21,7 +21,6 @@ std::vector<int> erase_test_1(std::map<T, V> mp) {
         mp.erase(it4->first);
     g_end1 = timer();
     typename std::map<T, V>::iterator it2 = mp.end();
-    it2--;
     v.push_back(mp.erase(30 * _ratio - 1));
     v.push_back(mp.size());
     std::map<int, int> mp2;
@@ -57,7 +56,6 @@ std::vector<int> erase_test_1(_map<T, V> mp) {
         mp.erase(it4->first);
     g_end2 = timer();
     typename _map<T, V>::iterator it2 = mp.end();
-    it2--;
     v.push_back(mp.erase(30 * _ratio - 1));
     v.push_back(mp.size());
     _map<int, int> mp2;
