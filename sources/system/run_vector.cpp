@@ -36,7 +36,7 @@ int main(int argc, char* argv[], char* env[]) {
 	runFunctionTest("../vector_tests/erase(range).cpp", argv, env);
 	runFunctionTest("../vector_tests/swap().cpp", argv, env);
 	runFunctionTest("../vector_tests/clear().cpp", argv, env);
-	runFunctionTest("../vector_tests/data().cpp", argv, env);
+	//runFunctionTest("../vector_tests/data().cpp", argv, env);
 	runFunctionTest("../vector_tests/using allocator.cpp", argv, env);
 	runFunctionTest("../vector_tests/operator ==.cpp", argv, env);
 	runFunctionTest("../vector_tests/operator !=.cpp", argv, env);
