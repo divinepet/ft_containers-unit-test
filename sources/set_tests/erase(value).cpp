@@ -18,8 +18,6 @@ std::vector<int> erase_test_1(std::set<T> st) {
     for (; it4 != st.end(); it4 = st.begin())
         st.erase(*it4);
     g_end1 = timer();
-    typename std::set<T>::iterator it2 = st.end();
-    it2--;
     v.push_back(st.erase(30 * _ratio - 1));
     v.push_back(st.size());
     std::set<int> st2;
@@ -51,8 +49,6 @@ std::vector<int> erase_test_1(_set<T> st) {
     for (; it4 != st.end(); it4 = st.begin())
         st.erase(*it4);
     g_end2 = timer();
-    typename _set<T>::iterator it2 = st.end();
-    it2--;
     v.push_back(st.erase(30 * _ratio - 1));
     v.push_back(st.size());
     _set<int> st2;
