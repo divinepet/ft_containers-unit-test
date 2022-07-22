@@ -2,9 +2,9 @@
 
 ![screenshot](https://raw.githubusercontent.com/divinepet/ft_containers-unit-test/main/sources/system/credits/screenshot.gif)
 
-# About
-<span>ft containers unit test</span> is a complete testing for project of school 21/ecole 42 and allowing you test your containers: <b>Vector</b>, <b>Stack</b>, <b>Map</b>, <b>Set</b> and <b>Utilities</b> in <b>ft</b> namespace.</br>
-This test checks 90% of subject and checklist requires: <b>using std allocator, iterator traits, benchmark, leaks, segfaults, timeouts</b> etc. But keep in mind that test doesn't check something you don't need to implement and was written by students, so im waiting for your bugs or suggestions for improving
+## <i>About
+<span><b>ft_containers-unit-test</b></span> is a complete testing for project of school 21/ecole 42 and allowing you test your containers: <b>Vector</b>, <b>Stack</b>, <b>Map</b>, <b>Set</b> and <b>Utilities</b> in <b>ft</b> namespace.</br>
+This test checks 90% of subject and checklist requires: <b>using std allocator, iterator traits, benchmark, leaks, segfaults, timeouts</b> etc. But keep in mind that test doesn't check something you don't need to implement and was written by students, so im waiting for your bugs or suggestions for improving</i>
 
 # Getting started
 ## ⚙️ Installation
@@ -42,6 +42,16 @@ You can run tests with a specific container, use flags for this
 ./start.sh -h # help with commands
 ```
 Use the <b>-fast</b> flag to run the test in simplified mode - the amount of data processed by each container is reduced to speed up its execution.
+## 🐧 Running on Linux
+In most cases it should resolve many conflicts:
+1. <b>comment</b> these lines: [#1](sources/system/run_set.cpp#L32), [#2](sources/system/run_map.cpp#L35), [#3](sources/system/lib.hpp#L24)
+2. <b>add</b> libraries in this [file](sources/system/engine.ipp):
+```c++
+#include <string.h>
+#include <sys/wait.h>
+```
+3. <b>remove</b> this [file](sources/system/Alloc.hpp) from project
+
 
 # Results
 
