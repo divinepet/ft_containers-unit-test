@@ -44,7 +44,7 @@ You can run tests with a specific container, use flags for this
 Use the <b>-fast</b> flag to run the test in simplified mode - the amount of data processed by each container is reduced to speed up its execution.
 ## 🐧 Running on Linux
 In most cases it should resolve many conflicts:
-1. <b>comment</b> these lines: [L32](sources/system/run_set.cpp#L32), [L35](sources/system/run_map.cpp#L35), [#24](sources/system/lib.hpp#L24)
+1. <b>comment</b> these lines: [line 32](sources/system/run_set.cpp#L32), [line 35](sources/system/run_map.cpp#L35), [line 24](sources/system/lib.hpp#L24)
 2. <b>add</b> libraries in this [file](sources/system/engine.ipp):
 ```c++
 #include <string.h>
