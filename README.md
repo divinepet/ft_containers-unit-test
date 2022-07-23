@@ -7,7 +7,7 @@
 This test checks 90% of subject and checklist requires: <b>using std allocator, iterator traits, benchmark, leaks, segfaults, timeouts</b> etc. But keep in mind that test doesn't check something you don't need to implement and was written by students, so im waiting for your bugs or suggestions for improving</i>
 
 # Getting started
-## ⚙️ Installation
+## ⬇️ 1. Installation
 run this command <b>inside</b> your ft_containers folder:
 ```shell
 git clone https://github.com/divinepet/ft_containers-unit-test
@@ -16,23 +16,19 @@ then
 ```shell
 cd ft_containers-unit-test
 ```
-now you need to configure file ```config.hpp``` and write correct names of all your files and classes, and the last step is
-```shell
-./start.sh
-```
-## ⚠️ config.hpp
-if you haven't some class implementation yet, for example <b>Map</b>, you need to <b><i>comment</i></b> appropriate line:
+now you need to configure file ```config.hpp``` and write correct names of all your files and classes
+## 🛠 2. Configure your config.hpp
+if you haven't some class implementation yet, for example <b>Map</b>, you need to <b><i>comment</i></b> appropriate line in ```config.hpp```:
 ```c++
-...
 // #define MAP     "../../../Map.hpp"
-...
 ```
-and etc. for other. The same with flags - uncomment this line to enable them
+and etc. for other. The same with flags - <b><i>uncomment</i></b> this line to <b>enable</b> them
 ```c++
 #define FLAGS
 ```
-## 📄 start.sh
-You can run tests with a specific container, use flags for this
+## 📝 3. Run start.sh
+Now you can execute ```start.sh``` and testing will start</br></br>
+Also you can run tests with a specific container, use flags for this:
 ```shell
 ./start.sh -v # for vector
 ./start.sh -u # for utilities
