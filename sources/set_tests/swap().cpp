@@ -47,7 +47,7 @@ std::vector<int> swap_test(_set<T> st) {
     for (; it != st2.end(); ++it) {
         v.push_back(*it);
     }
-    std::swap(st, st2);
+    ft::swap(st, st2);
     typename _set<T>::iterator it2 = st2.begin();
     for (; it2 != st2.end(); ++it2) {
         v.push_back(*it2);
