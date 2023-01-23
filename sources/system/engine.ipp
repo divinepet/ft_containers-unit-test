@@ -31,7 +31,7 @@ void saveResult(std::string test_name) {
 
 void testCompile(int *status, const char* func_filename, char **env) {
 
-    int     fd_log = open("../../logs.txt", O_RDWR | O_CREAT , 0777 | O_APPEND, S_IRUSR | S_IWUSR);
+    int     fd_log = open("../../logs.txt", O_RDWR | O_CREAT | O_APPEND, 0777, S_IRUSR | S_IWUSR);
     pid_t   pid;
     char**  test_args = (char**)malloc(sizeof(char*) * 9);
 
@@ -139,7 +139,7 @@ void runNonCompilable(std::string func_filename, char** argv, char** env) {
         _test_passed_cnt++;
     }
     else {
-        fd_log = open("../../logs.txt", O_RDWR | O_CREAT , 0777 | O_APPEND, S_IRUSR | S_IWUSR);
+        fd_log = open("../../logs.txt", O_RDWR | O_CREAT | O_APPEND, 0777, S_IRUSR | S_IWUSR);
         if (!fd_log)
             return ;
         write(fd_log, result.c_str(), result.length());
